@@ -65,7 +65,7 @@ export default function Header() {
                 )}
               >
                 <Icons.logo className="h-6 w-6" />
-                Ota yhteyttä
+                Varaa demo
               </Link>
             </div>
           </div>

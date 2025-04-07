@@ -84,56 +84,54 @@ export const TestimonialCard = ({
 
 const testimonials = [
   {
-    name: "Matti Virtanen",
-    role: "Kiinteistöyhtiön toimitusjohtaja",
-    img: "/testimonials/client1.jpg",
+    name: "Antti Ålander",
+    role: "Toimitusjohtaja, Pohjanmaan Kiinteistöpalvelut Oy",
+    img: "/testimonials/placeholder1.jpg",
     description: (
       <p>
-        AVAA-ratkaisu on mullistanut kiinteistöhallintamme kokonaan.
+        Isännöintijärjestelmät ovat pitkään olleet muutaman suuremman järjestelmätoimittajan vastuulla, enkä näe niiden kehittyneen merkittävästi vastaamaan nykypäivän isännöitsijän tarpeisiin. 
         <Highlight>
-          Viestintä asukkaiden kanssa on nyt sujuvaa ja tehokasta.
-        </Highlight>{" "}
-        Suosittelen lämpimästi!
+          Valitsimme Avaa.io:n, koska se täyttää parhaiten isännöintijärjestelmän vaatimukset ja auttaa meitä arkisten rutiinitöiden hallinnoinnissa.
+        </Highlight>
       </p>
     ),
   },
   {
-    name: "Liisa Korhonen",
-    role: "Kiinteistömanageri",
-    img: "/testimonials/client2.jpg",
+    name: "Juha Peltonen",
+    role: "Toimitusjohtaja, Joensuun isännöinti - Ykköset Oy",
+    img: "/testimonials/placeholder2.jpg",
     description: (
       <p>
-        AVAA:n digitaalinen alusta on tehostanut työtämme huomattavasti.
-        <Highlight>Hallinnointi on nyt selkeää ja läpinäkyvää.</Highlight>{" "}
-        Erinomainen työkalu nykyaikaiseen kiinteistöhallintaan.
+        Avaa Solutions Oy:n asiakaspalvelu ansaitsee täyden 10 toiminnastaan. 
+        <Highlight>
+          Kysymyksiin vastataan nopeasti ja asiantuntevasti. Tulevaisuus näyttää positiiviselta ja olemme erittäin tyytyväisiä sekä käyttöönottoon että Avaa.io tuotteeseen.
+        </Highlight>
       </p>
     ),
   },
   {
-    name: "Jukka Mäkinen",
-    role: "Isännöitsijä",
-    img: "/testimonials/client3.jpg",
+    name: "Olivia Rouvali",
+    role: "Pääkirjanpitäjä, Tilikasi Oy",
+    img: "/testimonials/placeholder3.jpg",
     description: (
       <p>
-        AVAA:n ratkaisu on yksinkertaistanut päivittäistä työtämme merkittävästi.
+        Käyttöönottoprosessi sujui aineistosiirtoineen erinomaisen helposti. 
         <Highlight>
-          Asukaspalvelut ovat nyt korkealaatuisia ja tehokkaita.
-        </Highlight>{" "}
-        Todellinen apu työssämme.
+          Kouluttajat osaavat asiansa erinomaisesti ja ohjelmat sekä Fennoa että Avaa.io tuntuu helppokäyttöisiltä.
+        </Highlight>
       </p>
     ),
   },
   {
-    name: "Anna Nieminen",
-    role: "Kiinteistöyhtiön hallituksen jäsen",
-    img: "/testimonials/client4.jpg",
+    name: "Heli Rantanen",
+    role: "Isännöitsijä, Korpilahden Isännöinti- ja Tilipalvelu Oy",
+    img: "/testimonials/placeholder4.jpg",
     description: (
       <p>
-        AVAA:n moderni alusta on nostanut kiinteistöhallintamme uudelle tasolle.
+        Muutamia omia ideoita on tullut ja osa niistä on jo Avaa.io muutettu. 
         <Highlight>
-          Tietojen käsittely ja raportointi ovat nyt vaivattomia.
-        </Highlight>{" "}
-        Loistava investointi tulevaisuuteen.
+          Koen, että pienikin asiakas tulee hyvin kuulluksi ja ohjelmaa kehitetään oikeasti käyttäjien toiveiden mukaan.
+        </Highlight>
       </p>
     ),
   },

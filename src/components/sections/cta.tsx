@@ -21,7 +21,7 @@ export default function CtaSection() {
           )}
         >
           <Icons.logo className="h-6 w-6" />
-          Ota yhteyttä
+          Varaa demo
         </Link>
         <Link
           href="/demo"
