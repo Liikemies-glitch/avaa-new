@@ -1,0 +1,2822 @@
+<!doctype html><html lang="fi"><head>
+    <meta charset="utf-8">
+    <title>koti</title>
+    <link rel="shortcut icon" href="https://avaa.io/hubfs/Logo_32x32.png">
+    <meta name="description" content="">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:description" content="">
+    <meta property="og:title" content="koti">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:title" content="koti">
+
+    
+
+    
+    <style>
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+</style>
+
+<link rel="stylesheet" href="https://avaa.io/hs-fs/hubfs/hub_generated/template_assets/1/99420651490/1743169467299/template_freeflex-styles.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+<style>  
+  
+  .header-utility {
+    
+      background-color: rgba(52, 122, 188, .85);
+    
+  }
+  
+  .utility-nav a,
+  .utility-nav a:visited {
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .utility-nav a:hover,
+  .utility-nav a:focus {
+    color: rgba(255, 255, 255, 1);
+    
+      text-decoration: none;
+    
+  }
+  
+  
+  .utility-nav.off-canvas ul {
+    border-top: 1px solid rgba(255, 255, 255, .55);
+  }
+
+  .utility-nav.off-canvas a,
+  .utility-nav.off-canvas a:visited {
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  
+  
+  .header {
+    position: fixed;
+  }
+  
+  
+    .header.sticky-header {
+      background: rgba(52, 122, 188, .85);
+      box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.1);
+      height: auto;
+    }
+  
+    .header.sticky-header .header-flex {
+      padding: 10px 0;
+    }
+  
+  
+  @media(min-width: 992px) {
+    .header {
+      position: absolute;
+    }
+    
+    
+    .header {
+      position: fixed;
+    }
+    
+  }
+  
+  
+  
+  .header-logo {
+    max-width: 125px;
+  }
+  
+  .header.sticky-header .header-logo.switch {
+    max-width: 250px;
+  }
+
+  @media(min-width: 768px) {
+    .header-logo {
+      max-width: 150px;
+    }
+    
+    .header.sticky-header .header-logo.switch {
+      max-width: 250px;
+    }
+  }
+  
+    
+  
+  .navbar-collapse {
+    background: rgba(52, 122, 188, 0.97);
+  }
+  
+  .navbar-toggle .icon-bar {
+    background: rgba(255, 255, 255, 1);
+  }
+  
+  .header.sticky-header .navbar-toggle .icon-bar {
+    background: rgba(255, 255, 255, 1);
+  }
+  
+  .navbar-toggle:hover .icon-bar {
+    background: rgba(255, 221, 0, 1);
+    width: 100%;
+  }
+
+  .navbar-close:hover .icon-bar {
+    background: rgba(255, 221, 0, 1);
+  }
+    
+  .nav ul li a,
+  .nav ul li a:visited,
+  .nav ul li a:focus,
+  .nav .hs-menu-wrapper.hs-menu-flow-horizontal > ul li a {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 300;
+  }
+
+  .nav ul li a:hover,
+  .nav .hs-menu-wrapper.hs-menu-flow-horizontal > ul li a:hover {
+    color: rgba(255, 221, 0, 1);
+  }
+  
+  
+  .nav li.arrow ul li a,
+  .nav li.arrow ul li a:visited,
+  .nav .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children ul.hs-menu-children-wrapper > li > a,
+  .nav .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children ul.hs-menu-children-wrapper > li > a:visited {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 300;
+  }
+
+  .nav li.arrow ul li a:hover,
+  .nav .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children ul.hs-menu-children-wrapper > li > a:hover {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: underline;
+  }
+  
+  .nav li.arrow ul ul li a,
+  .nav li.arrow ul ul li a:visited,
+  .nav .hs-menu-wrapper.hs-menu-flow-horizontal > ul ul li.hs-item-has-children ul.hs-menu-children-wrapper > li > a,
+  .nav .hs-menu-wrapper.hs-menu-flow-horizontal > ul ul li.hs-item-has-children ul.hs-menu-children-wrapper > li > a:visited {
+    font-weight: 300;
+  }
+  
+  
+  
+  
+  .nav.standard {
+    display: none;
+  }
+  
+  @media(min-width: 1200px) {
+    .nav.standard {
+      display: flex;
+    }
+    
+    .navbar-toggle {
+      display: none !important;
+    }
+    
+    .nav.standard ul li a,
+    .nav.standard ul li a:visited,
+    .nav.standard ul li a:focus,
+    .nav.standard .hs-menu-wrapper.hs-menu-flow-horizontal > ul li a {
+      color: rgba(255, 255, 255, 1);
+      font-weight: 400;
+    }
+
+    .nav.standard ul li a:hover,
+    .nav.standard .hs-menu-wrapper.hs-menu-flow-horizontal > ul li a:hover,
+    .nav.standard .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.active > a {
+      color: rgba(255, 221, 0, 1);
+    }
+    
+    
+    .nav.standard li.arrow ul li a,
+    .nav.standard li.arrow ul li a:visited,
+    .nav.standard .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children ul.hs-menu-children-wrapper > li > a,
+    .nav.standard .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children ul.hs-menu-children-wrapper > li > a:visited {
+      color: rgba(255, 255, 255, 1);
+      font-weight: 400;
+    }
+
+    .nav.standard li.arrow ul li a:hover,
+    .nav.standard .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children ul.hs-menu-children-wrapper > li > a:hover,
+    .nav.standard .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children ul.hs-menu-children-wrapper > li.active > a {
+      color: rgba(255, 221, 0, 1);
+    }
+    
+    .nav.standard li.arrow ul ul li a,
+    .nav.standard li.arrow ul ul li a:visited,
+    .nav.standard .hs-menu-wrapper.hs-menu-flow-horizontal > ul ul li.hs-item-has-children ul.hs-menu-children-wrapper > li > a,
+    .nav.standard .hs-menu-wrapper.hs-menu-flow-horizontal > ul ul li.hs-item-has-children ul.hs-menu-children-wrapper > li > a:visited {
+      font-weight: 400;
+    }
+    
+    .nav.standard ul ul,
+    .nav.standard .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children ul.hs-menu-children-wrapper {
+      background: rgba(52, 122, 188, 0.85);
+      border-radius: 3px;
+    }
+
+    .nav.standard .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children > ul.hs-menu-children-wrapper:before {
+      background: rgba(52, 122, 188, 0.85);
+    }
+  }
+  
+  
+  
+  
+  .social.header-soc a,
+  .social.header-soc a:visited {
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .social.header-soc a:hover,
+  .social.header-soc a:focus {
+    color: rgba(255, 255, 255, 1);
+  }
+  
+</style>
+
+
+<style>
+  .feature-item.dnd_area-module-1 {
+    background-position: center center;
+  }
+  
+  .feature-item.dnd_area-module-1.custom-padding {
+    padding: 50px 0 50px;
+  }
+  
+  @media(min-width: 992px) {
+    .feature-item.dnd_area-module-1 {
+      background-position: center bottom;
+    }
+    
+    .feature-item.dnd_area-module-1.custom-padding {
+      padding: 330px 0 500px;
+    }
+  }
+</style>
+
+
+  <style>
+    
+    
+      @media(min-width: 992px) {
+        .marketing-ctas-flex.three .marketing-cta:nth-child(3n + 2) {
+          position: relative;
+          top: 45px;
+        }
+      }
+    
+      @media(min-width: 1200px) {
+        .marketing-ctas-flex.three .marketing-cta:nth-child(3n + 2) {
+          position: relative;
+          top: 55px;
+        }
+        
+        .marketing-ctas-flex.four .marketing-cta:nth-child(4n + 2),
+        .marketing-ctas-flex.four .marketing-cta:nth-child(4n + 3) {
+          position: relative;
+          top: 55px;
+        }
+      }
+    
+    
+    
+    
+    .std-padding.dnd_area-module-2.marketing-cta-wrap .column-content {
+      margin: -70px auto 15px;
+    }
+    
+    @media(min-width: 1200px) {
+      .std-padding.dnd_area-module-2.marketing-cta-wrap .column-content {
+        margin: -320px auto 15px;
+      }
+    }
+    
+    
+    .std-padding.dnd_area-module-2 {
+       
+      
+        background-color: rgba(52, 122, 188, .85);
+      
+      
+        padding: 80px 0 80px;
+      
+    }
+
+    
+      @media(min-width: 992px) {
+        .std-padding.dnd_area-module-2 {
+          padding: 80px 0 45px;
+        }
+      }
+    
+  </style>
+
+
+<style>
+  .std-padding.dnd_area-module-3 {
+     
+    
+      background-color: rgba(255, 255, 255, 1);
+    
+    
+      padding: 30px 0 80px;
+    
+  }
+  
+  .page-content.dnd_area-module-3 {
+    text-align: center;
+  }
+  
+  
+    @media(min-width: 992px) {
+      .std-padding.dnd_area-module-3 {
+        padding: 30px 0 10px;
+      }
+    }
+  
+  
+  @media(min-width: 992px) {
+    .page-content.dnd_area-module-3 {
+      text-align: center;
+    }
+  }
+</style>
+
+
+    <style>
+      #hs_cos_wrapper_module_17139762628423 .counter-container-module_17139762628423-dw {
+  width:100%;
+  height:auto;
+  box-sizing:border-box;
+  padding:10px;
+  margin:0;
+  text-align:center;
+  background-color:rgba(52,122,188,1);
+}
+
+#hs_cos_wrapper_module_17139762628423 .counter-count-style-module_17139762628423-dw {
+  font-family:Montserrat;
+  font-weight:normal;
+  text-decoration:none;
+  font-family:Montserrat,sans-serif;
+  font-style:normal;
+  color:#FFFFFF;
+  font-size:38px;
+}
+
+#hs_cos_wrapper_module_17139762628423 .counter-text-style-module_17139762628423-dw {
+  font-family:Montserrat;
+  font-family:Montserrat,sans-serif;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+  color:#ffffff;
+  font-size:14px;
+}
+
+    </style>
+    
+
+    <style>
+      #hs_cos_wrapper_module_17139763428283 .counter-container-module_17139763428283-dw {
+  width:100%;
+  height:auto;
+  box-sizing:border-box;
+  padding:10px;
+  margin:0;
+  text-align:center;
+  background-color:rgba(52,122,188,1);
+}
+
+#hs_cos_wrapper_module_17139763428283 .counter-count-style-module_17139763428283-dw {
+  font-family:Montserrat;
+  font-weight:normal;
+  text-decoration:none;
+  font-family:Montserrat,sans-serif;
+  font-style:normal;
+  color:#FFFFFF;
+  font-size:38px;
+}
+
+#hs_cos_wrapper_module_17139763428283 .counter-text-style-module_17139763428283-dw {
+  font-family:Montserrat;
+  font-family:Montserrat,sans-serif;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+  color:#ffffff;
+  font-size:14px;
+}
+
+    </style>
+    
+
+    <style>
+      #hs_cos_wrapper_module_17139763480843 .counter-container-module_17139763480843-dw {
+  width:100%;
+  height:auto;
+  box-sizing:border-box;
+  padding:10px;
+  margin:0;
+  text-align:center;
+  background-color:rgba(52,122,188,1);
+}
+
+#hs_cos_wrapper_module_17139763480843 .counter-count-style-module_17139763480843-dw {
+  font-family:Montserrat;
+  font-weight:normal;
+  text-decoration:none;
+  font-family:Montserrat,sans-serif;
+  font-style:normal;
+  color:#FFFFFF;
+  font-size:38px;
+}
+
+#hs_cos_wrapper_module_17139763480843 .counter-text-style-module_17139763480843-dw {
+  font-family:Montserrat;
+  font-family:Montserrat,sans-serif;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+  color:#ffffff;
+  font-size:14px;
+}
+
+    </style>
+    
+
+    <style>
+      #hs_cos_wrapper_module_17139763508283 .counter-container-module_17139763508283-dw {
+  width:100%;
+  height:auto;
+  box-sizing:border-box;
+  padding:10px;
+  margin:0;
+  text-align:center;
+  background-color:rgba(52,122,188,1);
+}
+
+#hs_cos_wrapper_module_17139763508283 .counter-count-style-module_17139763508283-dw {
+  font-family:Montserrat;
+  font-weight:normal;
+  text-decoration:none;
+  font-family:Montserrat,sans-serif;
+  font-style:normal;
+  color:#FFFFFF;
+  font-size:38px;
+}
+
+#hs_cos_wrapper_module_17139763508283 .counter-text-style-module_17139763508283-dw {
+  font-family:Montserrat;
+  font-family:Montserrat,sans-serif;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:none;
+  color:#ffffff;
+  font-size:14px;
+}
+
+    </style>
+    
+<link rel="stylesheet" href="https://avaa.io/hs-fs/hubfs/hub_generated/module_assets/1/100257365486/1743134824799/module_Scrolling_Content_Banner.min.css">
+
+<style>
+  #hs_cos_wrapper_widget_1713978944930 .scrolling-content-banner {
+  padding-top:60px;
+  padding-right:31px;
+  padding-bottom:10px;
+  padding-left:31px;
+  gap:1rem;
+}
+
+#hs_cos_wrapper_widget_1713978944930 .scrolling-content-banner__content {
+  animation:scbScroll 25s linear infinite;
+  gap:1rem;
+}
+
+#hs_cos_wrapper_widget_1713978944930 .scrolling-content-banner__item { padding:5px; }
+
+#hs_cos_wrapper_widget_1713978944930 .scrolling-content-banner__separator { padding:10px; }
+
+#hs_cos_wrapper_widget_1713978944930 .scrolling-content-banner__separator--icon svg { height:24px; }
+
+@keyframes scbScroll {
+  from { transform:translateX(0); }
+  to { transform:translateX(calc(-100% - 1rem)); }
+}
+
+@keyframes scbScrollReverse {
+  from { transform:translateX(calc(-100% - 1rem)); }
+  to { transform:translateX(0); }
+}
+
+  
+  
+  
+  
+</style>
+
+<link rel="stylesheet" href="https://avaa.io/hs-fs/hubfs/hub_generated/template_assets/1/99418441167/1743169456723/template_slick-min-mf.min.css">
+
+<style>
+  .std-padding.dnd_area-module-6 {
+     
+    
+      background-color: rgba(255, 255, 255, 1);
+    
+    
+      padding: 20px 0 20px;
+    
+  }
+  
+  
+    @media(min-width: 992px) {
+      .std-padding.dnd_area-module-6 {
+        padding: 40px 0 20px;
+      }
+    }
+  
+</style>
+
+<link rel="stylesheet" href="https://avaa.io/hs-fs/hubfs/hub_generated/module_assets/1/100246639329/1743134822681/module_Logo_Carousel.min.css">
+
+<style>
+  
+
+  
+
+  
+
+  
+  #hs_cos_wrapper_widget_1740994584468 .logo-carousel .logo-carousel-inner {
+  max-width:1000px !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
+}
+
+  
+
+  #hs_cos_wrapper_widget_1740994584468 .logo-carousel {
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+@media only screen and (max-width:767px) and (min-width:220px) {
+  #hs_cos_wrapper_widget_1740994584468 .logo-carousel {
+    padding-top:30px;
+    padding-bottom:30px;
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+}
+
+@media only screen and (max-width:1024px) and (min-width:220px) {
+  #hs_cos_wrapper_widget_1740994584468 .logo-carousel .content-wrapper {
+    max-width:95% !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+  }
+}
+
+
+
+  
+  #hs_cos_wrapper_widget_1740994584468 .logo-carousel .slick-arrow svg { fill:rgba(52,122,188,1.0); }
+ 
+  
+
+
+  
+  #hs_cos_wrapper_widget_1740994584468 .logo-carousel ul.slick-dots li button {
+  border:1px solid rgba(42,65,102,1.0) !important;
+  background:rgba(52,122,188,1.0) !important;
+}
+
+#hs_cos_wrapper_widget_1740994584468 .logo-carousel ul.slick-dots li.slick-active button {
+  border:1px solid rgba(42,65,102,1.0) !important;
+  background:rgba(52,122,188,1.0) !important;
+}
+
+  
+
+  
+  #hs_cos_wrapper_widget_1740994584468 .logo-carousel .logo-carousel-single-inner {
+  background:rgba(255,255,255,1.0) !important;
+  border-radius:20px;
+}
+
+  
+
+  #hs_cos_wrapper_widget_1740994584468 .logo-carousel .slick-arrow svg {
+  width:25px;
+  height:25px;
+  position:relative;
+  z-index:999;
+  cursor:pointer;
+}
+
+#hs_cos_wrapper_widget_1740994584468 .logo-carousel .slick-prev.slick-arrow svg { transform:rotate(180deg); }
+
+#hs_cos_wrapper_widget_1740994584468 .logo-carousel .slick-arrow {
+  position:absolute;
+  z-index:9;
+}
+
+#hs_cos_wrapper_widget_1740994584468 .logo-carousel .slick-prev.slick-arrow {
+  right:40px;
+  top:-40px;
+}
+
+#hs_cos_wrapper_widget_1740994584468 .logo-carousel .slick-prev.slick-arrow svg { opacity:0.8; }
+
+#hs_cos_wrapper_widget_1740994584468 .logo-carousel .slick-next.slick-arrow svg { opacity:0.8; }
+
+#hs_cos_wrapper_widget_1740994584468 .logo-carousel .slick-prev.slick-arrow:hover svg { opacity:1; }
+
+#hs_cos_wrapper_widget_1740994584468 .logo-carousel .slick-next.slick-arrow:hover svg { opacity:1; }
+
+#hs_cos_wrapper_widget_1740994584468 .logo-carousel .slick-next.slick-arrow {
+  right:15px;
+  top:-40px;
+}
+
+@media only screen and (max-width:767px) and (min-width:280px) {
+  #hs_cos_wrapper_widget_1740994584468 .logo-carousel .slick-next.slick-arrow { top:-30px; }
+
+  #hs_cos_wrapper_widget_1740994584468 .logo-carousel .slick-prev.slick-arrow { top:-30px; }
+}
+
+</style>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+
+<style>
+  .std-padding.widget_1715176466554 {
+     
+    
+      background-color: #347abc;
+      background: -moz-linear-gradient(top, rgba(52, 122, 188,1) 0%, rgba(52, 122, 188, 0.80) 100%); 
+      background: linear-gradient (top, rgba(52, 122, 188,1) 0%, rgba(52, 122, 188, 0.80) 100%); 
+      background: -webkit-linear-gradient(top, rgba(52, 122, 188,1) 0%, rgba(52, 122, 188, 0.80) 100%); 
+    
+    
+  }
+  
+  .page-content.widget_1715176466554 {
+    text-align: center;
+  }
+  
+  
+  
+  @media(min-width: 992px) {
+    .page-content.widget_1715176466554 {
+      text-align: center;
+    }
+  }
+</style>
+
+
+<style>
+  .std-padding.widget_1715190344657 {
+     
+    
+      background-color: rgba(255, 255, 255, 1);
+    
+    
+      padding: 20px 0 10px;
+    
+  }
+  
+  .page-content.widget_1715190344657 {
+    text-align: left;
+  }
+  
+  
+    @media(min-width: 992px) {
+      .std-padding.widget_1715190344657 {
+        padding: 40px 0 0px;
+      }
+    }
+  
+  
+  @media(min-width: 992px) {
+    .page-content.widget_1715190344657 {
+      text-align: left;
+    }
+  }
+</style>
+
+
+<style>
+  .std-padding.widget_1715716300752 {
+     
+    
+      background-color: #347abc;
+      background: -moz-linear-gradient(top, rgba(52, 122, 188,1) 0%, rgba(52, 122, 188, 0.60) 100%); 
+      background: linear-gradient (top, rgba(52, 122, 188,1) 0%, rgba(52, 122, 188, 0.60) 100%); 
+      background: -webkit-linear-gradient(top, rgba(52, 122, 188,1) 0%, rgba(52, 122, 188, 0.60) 100%); 
+    
+    
+  }
+  
+  .page-content.widget_1715716300752 {
+    text-align: left;
+  }
+  
+  
+  
+  @media(min-width: 992px) {
+    .page-content.widget_1715716300752 {
+      text-align: left;
+    }
+  }
+</style>
+
+
+<style>
+  .std-padding.widget_1728595196727 {
+     
+    
+      background-color: #347abc;
+      background: -moz-linear-gradient(left, rgba(52, 122, 188,1) 0%, rgba(52, 122, 188, 0.80) 100%); 
+      background: linear-gradient (left, rgba(52, 122, 188,1) 0%, rgba(52, 122, 188, 0.80) 100%); 
+      background: -webkit-linear-gradient(left, rgba(52, 122, 188,1) 0%, rgba(52, 122, 188, 0.80) 100%); 
+    
+    
+  }
+  
+  .page-content.widget_1728595196727 {
+    text-align: left;
+  }
+  
+  
+  
+  @media(min-width: 992px) {
+    .page-content.widget_1728595196727 {
+      text-align: left;
+    }
+  }
+</style>
+
+<style>
+  @font-face {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("/_hcms/googlefonts/Montserrat/regular.woff2") format("woff2"), url("/_hcms/googlefonts/Montserrat/regular.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Lato";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("/_hcms/googlefonts/Lato/regular.woff2") format("woff2"), url("/_hcms/googlefonts/Lato/regular.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Kanit";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("/_hcms/googlefonts/Kanit/regular.woff2") format("woff2"), url("/_hcms/googlefonts/Kanit/regular.woff") format("woff");
+  }
+</style>
+
+<!-- Editor Styles -->
+<style id="hs_editor_style" type="text/css">
+#hs_cos_wrapper_widget_1713976978582  { color: #ffffff !important; display: block !important; font-size: 28px !important; padding-bottom: 15px !important; padding-top: 10px !important; text-align: center !important }
+#hs_cos_wrapper_widget_1713976978582  p , #hs_cos_wrapper_widget_1713976978582  li , #hs_cos_wrapper_widget_1713976978582  span , #hs_cos_wrapper_widget_1713976978582  label , #hs_cos_wrapper_widget_1713976978582  h1 , #hs_cos_wrapper_widget_1713976978582  h2 , #hs_cos_wrapper_widget_1713976978582  h3 , #hs_cos_wrapper_widget_1713976978582  h4 , #hs_cos_wrapper_widget_1713976978582  h5 , #hs_cos_wrapper_widget_1713976978582  h6  { color: #ffffff !important; font-size: 28px !important }
+#hs_cos_wrapper_widget_1737637863450  { display: block !important; margin-top: 30px !important; padding-top: 0px !important }
+#hs_cos_wrapper_widget_1715248618757  { display: block !important; padding-bottom: 0px !important; padding-left: 260px !important; padding-right: 250px !important; padding-top: 10px !important }
+#hs_cos_wrapper_widget_1715759463747  { display: block !important; padding-bottom: 50px !important }
+#hs_cos_wrapper_widget_1715801490495  { display: block !important; line-height: 44.2px !important; padding-bottom: 0px !important; padding-left: 0px !important; padding-right: 0px !important; padding-top: 15px !important; text-align: center !important }
+#hs_cos_wrapper_widget_1715801490495  p , #hs_cos_wrapper_widget_1715801490495  li , #hs_cos_wrapper_widget_1715801490495  span , #hs_cos_wrapper_widget_1715801490495  label , #hs_cos_wrapper_widget_1715801490495  h1 , #hs_cos_wrapper_widget_1715801490495  h2 , #hs_cos_wrapper_widget_1715801490495  h3 , #hs_cos_wrapper_widget_1715801490495  h4 , #hs_cos_wrapper_widget_1715801490495  h5 , #hs_cos_wrapper_widget_1715801490495  h6  { line-height: 44.2px !important }
+#hs_cos_wrapper_widget_1715716545144  { display: block !important; font-size: 15px !important; padding-bottom: 20px !important; padding-top: 0px !important; text-align: center !important }
+#hs_cos_wrapper_widget_1715716545144  p , #hs_cos_wrapper_widget_1715716545144  li , #hs_cos_wrapper_widget_1715716545144  span , #hs_cos_wrapper_widget_1715716545144  label , #hs_cos_wrapper_widget_1715716545144  h1 , #hs_cos_wrapper_widget_1715716545144  h2 , #hs_cos_wrapper_widget_1715716545144  h3 , #hs_cos_wrapper_widget_1715716545144  h4 , #hs_cos_wrapper_widget_1715716545144  h5 , #hs_cos_wrapper_widget_1715716545144  h6  { font-size: 15px !important }
+#hs_cos_wrapper_widget_1713976978582  { color: #ffffff !important; display: block !important; font-size: 28px !important; padding-bottom: 15px !important; padding-top: 10px !important; text-align: center !important }
+#hs_cos_wrapper_widget_1713976978582  p , #hs_cos_wrapper_widget_1713976978582  li , #hs_cos_wrapper_widget_1713976978582  span , #hs_cos_wrapper_widget_1713976978582  label , #hs_cos_wrapper_widget_1713976978582  h1 , #hs_cos_wrapper_widget_1713976978582  h2 , #hs_cos_wrapper_widget_1713976978582  h3 , #hs_cos_wrapper_widget_1713976978582  h4 , #hs_cos_wrapper_widget_1713976978582  h5 , #hs_cos_wrapper_widget_1713976978582  h6  { color: #ffffff !important; font-size: 28px !important }
+#hs_cos_wrapper_widget_1737637863450  { display: block !important; margin-top: 30px !important; padding-top: 0px !important }
+#hs_cos_wrapper_widget_1715248618757  { display: block !important; padding-bottom: 0px !important; padding-left: 260px !important; padding-right: 250px !important; padding-top: 10px !important }
+#hs_cos_wrapper_widget_1715759463747  { display: block !important; padding-bottom: 50px !important }
+#hs_cos_wrapper_widget_1715801490495  { display: block !important; line-height: 44.2px !important; padding-bottom: 0px !important; padding-left: 0px !important; padding-right: 0px !important; padding-top: 15px !important; text-align: center !important }
+#hs_cos_wrapper_widget_1715801490495  p , #hs_cos_wrapper_widget_1715801490495  li , #hs_cos_wrapper_widget_1715801490495  span , #hs_cos_wrapper_widget_1715801490495  label , #hs_cos_wrapper_widget_1715801490495  h1 , #hs_cos_wrapper_widget_1715801490495  h2 , #hs_cos_wrapper_widget_1715801490495  h3 , #hs_cos_wrapper_widget_1715801490495  h4 , #hs_cos_wrapper_widget_1715801490495  h5 , #hs_cos_wrapper_widget_1715801490495  h6  { line-height: 44.2px !important }
+#hs_cos_wrapper_widget_1715716545144  { display: block !important; font-size: 15px !important; padding-bottom: 20px !important; padding-top: 0px !important; text-align: center !important }
+#hs_cos_wrapper_widget_1715716545144  p , #hs_cos_wrapper_widget_1715716545144  li , #hs_cos_wrapper_widget_1715716545144  span , #hs_cos_wrapper_widget_1715716545144  label , #hs_cos_wrapper_widget_1715716545144  h1 , #hs_cos_wrapper_widget_1715716545144  h2 , #hs_cos_wrapper_widget_1715716545144  h3 , #hs_cos_wrapper_widget_1715716545144  h4 , #hs_cos_wrapper_widget_1715716545144  h5 , #hs_cos_wrapper_widget_1715716545144  h6  { font-size: 15px !important }
+.dnd_area-row-0-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.dnd_area-row-3-max-width-section-centering > .row-fluid {
+  max-width: 1000px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.dnd_area-row-6-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.dnd_area-row-8-max-width-section-centering > .row-fluid {
+  max-width: 500px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.widget_1737637863450-flexbox-positioning {
+  display: -ms-flexbox !important;
+  -ms-flex-direction: column !important;
+  -ms-flex-align: center !important;
+  -ms-flex-pack: start;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start;
+}
+.widget_1737637863450-flexbox-positioning > div {
+  max-width: 100%;
+  flex-shrink: 0 !important;
+}
+.widget_1715248618757-flexbox-positioning {
+  display: -ms-flexbox !important;
+  -ms-flex-direction: column !important;
+  -ms-flex-align: center !important;
+  -ms-flex-pack: start;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start;
+}
+.widget_1715248618757-flexbox-positioning > div {
+  max-width: 100%;
+  flex-shrink: 0 !important;
+}
+.widget_1715759463747-flexbox-positioning {
+  display: -ms-flexbox !important;
+  -ms-flex-direction: column !important;
+  -ms-flex-align: center !important;
+  -ms-flex-pack: start;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start;
+}
+.widget_1715759463747-flexbox-positioning > div {
+  max-width: 100%;
+  flex-shrink: 0 !important;
+}
+/* HubSpot Non-stacked Media Query Styles */
+@media (min-width:768px) {
+  .cell_17139762451545-row-1-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .cell_1713976350828-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_1713976350828-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_1713976348084-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_1713976348084-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_1713976342828-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_1713976342828-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_1713976262842-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_1713976262842-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+}
+/* HubSpot Styles (default) */
+.dnd_area-row-0-hidden {
+  display: block !important;
+}
+.dnd_area-row-0-background-layers {
+  background-image: linear-gradient(rgba(52, 122, 188, 1), rgba(52, 122, 188, 1)) !important;
+  background-position: left top !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
+}
+.dnd_area-row-3-background-layers {
+  background-image: linear-gradient(rgba(52, 122, 188, 1), rgba(52, 122, 188, 1)) !important;
+  background-position: left top !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
+}
+.dnd_area-row-6-background-layers {
+  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)) !important;
+  background-position: left top !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
+}
+.cell_17139762451545-padding {
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.cell_17139762451545-hidden {
+  display: block !important;
+}
+.cell_17139762451545-row-1-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.cell_17139762451545-row-1-hidden {
+  display: block !important;
+}
+.cell_17139762451545-row-1-background-layers {
+  background-image: linear-gradient(rgba(52, 122, 188, 1), rgba(52, 122, 188, 1)) !important;
+  background-position: left top !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
+}
+.cell_1713906547668-hidden {
+  display: block !important;
+}
+.cell_17152757549233-background-layers {
+  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)) !important;
+  background-position: left top !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
+}
+.cell_17285951140483-hidden {
+  display: block !important;
+}
+</style>
+    
+
+    
+<!--  Added by GoogleAnalytics4 integration -->
+<script>
+var _hsp = window._hsp = window._hsp || [];
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+var useGoogleConsentModeV2 = true;
+var waitForUpdateMillis = 1000;
+
+
+if (!window._hsGoogleConsentRunOnce) {
+  window._hsGoogleConsentRunOnce = true;
+
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'analytics_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'wait_for_update': waitForUpdateMillis
+  });
+
+  if (useGoogleConsentModeV2) {
+    _hsp.push(['useGoogleConsentModeV2'])
+  } else {
+    _hsp.push(['addPrivacyConsentListener', function(consent){
+      var hasAnalyticsConsent = consent && (consent.allowed || (consent.categories && consent.categories.analytics));
+      var hasAdsConsent = consent && (consent.allowed || (consent.categories && consent.categories.advertisement));
+
+      gtag('consent', 'update', {
+        'ad_storage': hasAdsConsent ? 'granted' : 'denied',
+        'analytics_storage': hasAnalyticsConsent ? 'granted' : 'denied',
+        'ad_user_data': hasAdsConsent ? 'granted' : 'denied',
+        'ad_personalization': hasAdsConsent ? 'granted' : 'denied'
+      });
+    }]);
+  }
+}
+
+gtag('js', new Date());
+gtag('set', 'developer_id.dZTQ1Zm', true);
+gtag('config', 'G-K6MLQQTYBZ');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K6MLQQTYBZ"></script>
+
+<!-- /Added by GoogleAnalytics4 integration -->
+
+<!--  Added by GoogleTagManager integration -->
+<script>
+var _hsp = window._hsp = window._hsp || [];
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+var useGoogleConsentModeV2 = true;
+var waitForUpdateMillis = 1000;
+
+
+
+var hsLoadGtm = function loadGtm() {
+    if(window._hsGtmLoadOnce) {
+      return;
+    }
+
+    if (useGoogleConsentModeV2) {
+
+      gtag('set','developer_id.dZTQ1Zm',true);
+
+      gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'analytics_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'wait_for_update': waitForUpdateMillis
+      });
+
+      _hsp.push(['useGoogleConsentModeV2'])
+    }
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KH4KV2RT');
+
+    window._hsGtmLoadOnce = true;
+};
+
+_hsp.push(['addPrivacyConsentListener', function(consent){
+  if(consent.allowed || (consent.categories && consent.categories.analytics)){
+    hsLoadGtm();
+  }
+}]);
+
+</script>
+
+<!-- /Added by GoogleTagManager integration -->
+
+    <link rel="canonical" href="https://avaa.io/koti">
+
+<!-- Hotjar Tracking Code for Site 4988186 (name missing) -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:4988186,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<meta property="og:image" content="https://avaa.io/hubfs/Untitled%20design%20%2842%29.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="628">
+
+<meta name="twitter:image" content="https://avaa.io/hubfs/Untitled%20design%20%2842%29.png">
+
+
+<meta property="og:url" content="https://avaa.io/koti">
+<meta name="twitter:card" content="summary_large_image">
+<meta http-equiv="content-language" content="fi">
+
+
+
+
+
+<style>
+        /* Custom styles to override the theme styles */
+        .marketing-cta,
+        .marketing-cta:visited {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.15);
+            padding: 22px 22px 50px;
+            position: relative;
+            margin: 0 auto 35px;
+            width: 100%;
+            max-width: 400px;
+        }
+  
+@media (min-width: 1200px) {
+    .nav.standard ul li a, .nav.standard ul li a:visited, .nav.standard ul li a:focus, .nav.standard .hs-menu-wrapper.hs-menu-flow-horizontal > ul li a {
+        background: transparent;
+        display: block;
+        font-size: 16px;
+        line-height: 1.3;
+        max-width: none;
+        overflow: visible;
+        padding: 5px 12px 5px 0px;
+        position: relative;
+        outline: none;
+        margin-right: 20px;
+    }
+}
+
+        /* Default Styles */
+        h1 {
+            font-size: 72px;
+            text-align: center;
+            line-height: 1.25;
+            color: #ffffff;
+        }
+        h2 {
+            font-size: 30px;
+            text-align: center;
+            line-height: 1;
+            color: #ffffff;
+            font-family: Georgia, 'Times New Roman', serif;
+        }
+        .small-gap {
+            font-size: 8px;
+            text-align: center;
+            line-height: 1;
+        }
+
+        /* Media query for mobile screens (adjust the max-width as needed) */
+        @media only screen and (max-width: 768px) {
+            h1 {
+                font-size: 28px;
+              	padding-top: 30px;
+            }
+            h2 {
+                font-size: 16px;
+            }
+            .small-gap {
+                font-size: 4px;
+            }
+        }
+ 
+.button, .button:visited, .btn-primary, .btn-primary:visited, .hs-button, .hs-button:visited {
+    padding: 8px 20px;
+}
+  
+.btn-secondary, .btn-secondary:visited { 
+      padding: 8px 20px;
+}
+</style>
+
+    
+      <link rel="preconnect" href="https://googleapis.com">
+      <!--<script rel="preload" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+      
+    
+  <meta name="generator" content="HubSpot"></head>
+  <body>
+<!--  Added by GoogleTagManager integration -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KH4KV2RT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- /Added by GoogleTagManager integration -->
+
+    <div class="body-wrapper   hs-content-id-99416706540 hs-site-page page ">
+      
+        <div data-global-resource-path="@marketplace/Mojo_Media_Labs/FreeFlex/templates/partials/freeflex-header.html"><header class="header">
+  
+  <div class="container-fluid">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+</div><!--end widget-span -->
+</div>
+</div>
+</div>
+  
+  
+  <div id="hs_cos_wrapper_freeflex-header" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><a href="#mainContent" class="skip-nav" aria-label="This is here to skip the navigation and take you right to the beginning of the content area"></a>
+<div class="header">
+  
+  <div class="page-content max">
+    <div class="header-flex">
+      <div class="header-logo ">
+        
+        
+        <a aria-label="AVAA-Solutions-White-White" class="logo" href="https://avaa.io/koti">
+          <img class="reg-logo" src="https://avaa.io/hubfs/AVAA-Solutions-White-White.png" alt="AVAA-Solutions-White-White">
+          
+        </a>
+      </div>
+      <div class="header-nav">
+        
+          <div class="nav standard">
+            <span id="hs_cos_wrapper_freeflex-header_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_freeflex-header_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="98853342181" aria-label="Navigation Menu">
+ <ul role="menu" class="active-branch">
+  <li class="hs-menu-item hs-menu-depth-1 active active-branch" role="none"><a href="https://avaa.io/koti" role="menuitem">Koti</a></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Palvelut</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://avaa.io/isännöintijärjestelmä" role="menuitem">Isännöintijärjestelmä</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://avaa.io/tarmopro" role="menuitem">Huollon ja siivouksen toiminnanohjaus</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://avaa.io/porrasnäytöt" role="menuitem">Porrasnäytöt</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://avaa.io/blogi" role="menuitem">Ajankohtaista</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://avaa.io/yritys" role="menuitem">Yritys</a></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Kirjaudu</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://fi.avaa.io" role="menuitem">Isännöintitoimistolle</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://avaa.tarmopro.com/login" role="menuitem">Huoltoyhtiölle</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://avaa.io/webapp" role="menuitem">Taloyhtiölle</a></li>
+   </ul></li>
+ </ul>
+</div></span>
+          </div>
+          
+        
+        
+          <div class="mobile-hide header-cta">
+            
+            
+            
+            
+            
+              
+            
+            <a class="btn-primary" href="https://meetings-eu1.hubspot.com/sami-lappalainen" target="_blank" rel="noopener">
+              Varaa aika esittelyyn
+            </a>
+          </div>
+        
+        <div class="lang-switch-wrapper">
+          
+        </div>
+        <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+          <button aria-label="Toggle the off canvas Navigation" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar first"></span>
+            <span class="icon-bar middle"></span>
+            <span class="icon-bar last"></span>
+          </button>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <section aria-label="Off Canvas Navigation" class="navbar-collapse ">
+    <button type="button" class="navbar-close" aria-label="Close Menu Button">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar first"></span>
+      <span class="icon-bar last"></span>
+    </button>
+    <div class="off-canvas-inner">
+      
+      <div class="nav">
+        <span id="hs_cos_wrapper_freeflex-header_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_freeflex-header_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="98853342181" aria-label="Navigation Menu">
+ <ul role="menu" class="active-branch">
+  <li class="hs-menu-item hs-menu-depth-1 active active-branch" role="none"><a href="https://avaa.io/koti" role="menuitem">Koti</a></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Palvelut</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://avaa.io/isännöintijärjestelmä" role="menuitem">Isännöintijärjestelmä</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://avaa.io/tarmopro" role="menuitem">Huollon ja siivouksen toiminnanohjaus</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://avaa.io/porrasnäytöt" role="menuitem">Porrasnäytöt</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://avaa.io/blogi" role="menuitem">Ajankohtaista</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://avaa.io/yritys" role="menuitem">Yritys</a></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Kirjaudu</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://fi.avaa.io" role="menuitem">Isännöintitoimistolle</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://avaa.tarmopro.com/login" role="menuitem">Huoltoyhtiölle</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://avaa.io/webapp" role="menuitem">Taloyhtiölle</a></li>
+   </ul></li>
+ </ul>
+</div></span>
+      </div>
+      
+      
+    </div>
+  </section>
+  
+</div>
+
+</div>
+  
+  
+  
+  <div class="container-fluid">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+</div><!--end widget-span -->
+</div>
+</div>
+</div>
+  
+</header></div>
+      
+
+      
+  <main id="mainContent" class="body-container-wrapper ha-waypoint">
+    <div class="container-fluid">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 dnd_area-row-0-background-color dnd_area-row-0-force-full-width-section dnd_area-row-0-background-layers dnd-section dnd_area-row-0-hidden">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_dnd_area-module-1" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="feature-wrapper">
+  <div class="feature-item dnd_area-module-1 custom-padding default" style="background-image: url(https://avaa.io/hubfs/BG.jpeg);">
+    
+    
+    <div class="shader" style="background-color: rgba(52, 122, 188, .45);"></div>
+    
+    <div class="page-content max">
+      <div class="feature-content ">
+        <div class="animation-only" data-aos="fade-up" data-aos-duration="" data-aos-delay="">
+          <div id="hs_cos_wrapper_dnd_area-module-1_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text" data-hs-cos-field="feature_content"><h1>ISÄNNÖINTIJÄRJESTELMÄ&nbsp;</h1>
+<h2 style="font-size: 30px;">Kotimainen <span data-contrast="auto" xml:lang="FI-FI" lang="FI-FI"><span>–</span></span> Kokonaisvaltainen <span data-contrast="auto" xml:lang="FI-FI" lang="FI-FI"><span>– </span></span>Käyttäjäystävällinen</h2>
+<h2 class="small-gap">&nbsp;</h2></div>
+          <div class="two-buttons-flex">
+            
+              
+              
+              
+              
+              
+                
+              
+              <a class="btn-primary" href="https://youtu.be/t4EroDWOx7s" target="_blank" rel="noopener">
+                Katso esittelyvideo
+              </a>
+            
+            
+              
+              
+              
+              
+              
+                
+              
+              <a class="btn-secondary" href="https://meetings-eu1.hubspot.com/sami-lappalainen?uuid=8cbc9ee0-b7dc-4c6c-8af8-9d8ca798b34e" target="_blank" rel="noopener">
+                Varaa aika esittelyyn
+              </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 dnd-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_dnd_area-module-2" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="std-padding dnd_area-module-2 parallax marketing-cta-wrap">
+  
+  
+  <div class="page-content max flexed">
+    <div class="column-content full">
+      <div class="animation-only" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="150">
+        <div id="hs_cos_wrapper_dnd_area-module-2_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text" data-hs-cos-field="column_1"><p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p></div>
+      </div>
+      <div class="marketing-ctas-flex dnd_area-module-2 three offset-items">
+        
+          
+            
+            
+            <a href="https://avaa.io/isännöintijärjestelmä" class="marketing-cta" data-aos="fade-down" data-aos-duration="500">
+              <div class="marketing-cta-image" style="background-image: url(https://144352573.fs1.hubspotusercontent-eu1.net/hub/144352573/hubfs/Avaa%20Platgform_ver2.png?height=300&amp;name=Avaa%20Platgform_ver2.png);"></div>
+              <div class="marketing-cta-content">
+                <p class="marketing-cta-title">Avaa.io</p>
+                <p>Kokonaisvaltainen ja käyttäjäystävällinen isännöintijärjestelmä kiinteistöhallinnan ammattilaisten työkaluksi. </p>
+              </div>
+            </a>
+          
+        
+          
+            
+            
+            <a href="https://avaa.io/isännöintijärjestelmä" class="marketing-cta" data-aos="fade-down" data-aos-duration="500">
+              <div class="marketing-cta-image" style="background-image: url(https://144352573.fs1.hubspotusercontent-eu1.net/hub/144352573/hubfs/Avaa%20WEB%20app%20marketin%20illustration%20%281%29.png?height=300&amp;name=Avaa%20WEB%20app%20marketin%20illustration%20%281%29.png);"></div>
+              <div class="marketing-cta-content">
+                <p class="marketing-cta-title">Asukaspalvelut</p>
+                <p>Web- ja mobiiliapplikaatiot sekä porrasnäytöt, saumattomasti isännöintijärjestelmään integroituna. </p>
+              </div>
+            </a>
+          
+        
+          
+            
+            
+            <a href="https://avaa.io/tarmopro" class="marketing-cta" data-aos="fade-down" data-aos-duration="500">
+              <div class="marketing-cta-image" style="background-image: url(https://144352573.fs1.hubspotusercontent-eu1.net/hub/144352573/hubfs/Untitled%20design%20%2829%29.png?height=300&amp;name=Untitled%20design%20%2829%29.png);"></div>
+              <div class="marketing-cta-content">
+                <p class="marketing-cta-title">TarmoPro</p>
+                <p>Kiinteistöhuollon toiminnanohjaus,  raportointi ja laskutus, integroitavissa isännöintijärjestelmään.</p>
+              </div>
+            </a>
+          
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 dnd-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_dnd_area-module-3" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="std-padding dnd_area-module-3   ">
+  
+  
+  <div class="page-content dnd_area-module-3 small flexed left-side">
+    <div class="column-content ">
+      <div class="animation-only">
+        <div id="hs_cos_wrapper_dnd_area-module-3_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text" data-hs-cos-field="column_1"><h2><img src="https://avaa.io/hs-fs/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/FreeFlex/images/icons/divider-line.jpg?width=1&amp;name=divider-line.jpg" alt="Divider-line" style="width: 1px;" width="1" srcset="https://avaa.io/hs-fs/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/FreeFlex/images/icons/divider-line.jpg?width=1&amp;name=divider-line.jpg 1w, https://avaa.io/hs-fs/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/FreeFlex/images/icons/divider-line.jpg?width=2&amp;name=divider-line.jpg 2w, https://avaa.io/hs-fs/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/FreeFlex/images/icons/divider-line.jpg?width=3&amp;name=divider-line.jpg 3w" sizes="(max-width: 1px) 100vw, 1px"></h2>
+<h2><span style="font-family: Montserrat, Helvetica, sans-serif;"><span style="color: #2a4166;">Yhdistettynä kirjanpitojärjestelmään</span></span></h2>
+<p>Avaa.io tuottaa kirjanpitotositteet automaattisesti osana työkulkuja ja integroituu kirjanpitojärjestelmään, mahdollistaen tehokkaat kiinteistön taloushallinnon ja tilinpäätöksen prosessit ja automatisoinnit.</p>
+<p>Yhteistyökumppanimme kirjanpitojärjestelmät saat halutessasi käyttöösi myös Avaa:n käyttöönoton yhteydessä ja Avaa Solutions Oy tarjoaa kirjanpitojärjestelmän tuotetuen ja koulutuksen isännöintitoimistollesi.</p>
+<p><img src="https://avaa.io/hs-fs/hubfs/Untitled%20design%20(39).png?width=102&amp;height=102&amp;name=Untitled%20design%20(39).png" width="102" height="102" loading="lazy" alt="Untitled design (39)" style="height: auto; max-width: 100%; width: 102px;" srcset="https://avaa.io/hs-fs/hubfs/Untitled%20design%20(39).png?width=51&amp;height=51&amp;name=Untitled%20design%20(39).png 51w, https://avaa.io/hs-fs/hubfs/Untitled%20design%20(39).png?width=102&amp;height=102&amp;name=Untitled%20design%20(39).png 102w, https://avaa.io/hs-fs/hubfs/Untitled%20design%20(39).png?width=153&amp;height=153&amp;name=Untitled%20design%20(39).png 153w, https://avaa.io/hs-fs/hubfs/Untitled%20design%20(39).png?width=204&amp;height=204&amp;name=Untitled%20design%20(39).png 204w, https://avaa.io/hs-fs/hubfs/Untitled%20design%20(39).png?width=255&amp;height=255&amp;name=Untitled%20design%20(39).png 255w, https://avaa.io/hs-fs/hubfs/Untitled%20design%20(39).png?width=306&amp;height=306&amp;name=Untitled%20design%20(39).png 306w" sizes="(max-width: 102px) 100vw, 102px"></p></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-4 dnd_area-row-3-max-width-section-centering dnd-section dnd_area-row-3-background-layers dnd_area-row-3-background-color">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell cell_17139762451545-hidden dnd-column cell_17139762451545-padding" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-5 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1713976978582" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_widget_1713976978582_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="text">Luotettu uuden sukupolven kotimainen isännöintijärjestelmä</span></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-6 cell_17139762451545-row-1-hidden cell_17139762451545-row-1-background-color cell_17139762451545-row-1-background-layers cell_17139762451545-row-1-padding dnd-row cell_17139762451545-row-1-vertical-alignment">
+<div class="row-fluid ">
+<div class="span3 widget-span widget-type-cell dnd-column cell_1713976262842-vertical-alignment" style="" data-widget-type="cell" data-x="0" data-w="3">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-7 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17139762628423" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="counter-container-module_17139762628423-dw">
+      <div class="counter-count-style-module_17139762628423-dw" id="counter-count-module_17139762628423-dw">0</div>
+      <p class="counter-text-style-module_17139762628423-dw">Käsiteltyä tehtävää toiminnanohjausmoduulissa</p>
+    </div>
+    
+    </div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+<div class="span3 widget-span widget-type-cell dnd-column cell_1713976342828-vertical-alignment" style="" data-widget-type="cell" data-x="3" data-w="3">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-8 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17139763428283" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="counter-container-module_17139763428283-dw">
+      <div class="counter-count-style-module_17139763428283-dw" id="counter-count-module_17139763428283-dw">0</div>
+      <p class="counter-text-style-module_17139763428283-dw">Lähetettyä sähköpostiviestiä viestintämoduulista</p>
+    </div>
+    
+    </div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+<div class="span3 widget-span widget-type-cell cell_1713976348084-vertical-alignment dnd-column" style="" data-widget-type="cell" data-x="6" data-w="3">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-9 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17139763480843" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="counter-container-module_17139763480843-dw">
+      <div class="counter-count-style-module_17139763480843-dw" id="counter-count-module_17139763480843-dw">0</div>
+      <p class="counter-text-style-module_17139763480843-dw">Luotua vastikelaskua reskontramoduulissa</p>
+    </div>
+    
+    </div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+<div class="span3 widget-span widget-type-cell cell_1713976350828-vertical-alignment dnd-column" style="" data-widget-type="cell" data-x="9" data-w="3">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-10 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_17139763508283" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="counter-container-module_17139763508283-dw">
+      <div class="counter-count-style-module_17139763508283-dw" id="counter-count-module_17139763508283-dw">0</div>
+      <p class="counter-text-style-module_17139763508283-dw">Kiinteistöjen tilaa hallittuna kiinteistönhallintamoduulissa</p>
+    </div>
+    
+    </div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-11 dnd-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column cell_1713906547668-hidden" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-12 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget widget_1737637863450-flexbox-positioning dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1737637863450" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+    
+
+
+
+
+
+
+  
+
+
+
+<span id="hs_cos_wrapper_widget_1737637863450_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="linked_image"><img src="https://avaa.io/hs-fs/hubfs/SuomalPalvelua_Sin_rgb-1.jpg?width=470&amp;height=374&amp;name=SuomalPalvelua_Sin_rgb-1.jpg" class="hs-image-widget " width="470" height="374" style="max-width: 100%; height: auto;" alt="SuomalPalvelua_Sin_rgb-1" title="SuomalPalvelua_Sin_rgb-1" loading="lazy" srcset="https://avaa.io/hs-fs/hubfs/SuomalPalvelua_Sin_rgb-1.jpg?width=235&amp;height=187&amp;name=SuomalPalvelua_Sin_rgb-1.jpg 235w, https://avaa.io/hs-fs/hubfs/SuomalPalvelua_Sin_rgb-1.jpg?width=470&amp;height=374&amp;name=SuomalPalvelua_Sin_rgb-1.jpg 470w, https://avaa.io/hs-fs/hubfs/SuomalPalvelua_Sin_rgb-1.jpg?width=705&amp;height=561&amp;name=SuomalPalvelua_Sin_rgb-1.jpg 705w, https://avaa.io/hs-fs/hubfs/SuomalPalvelua_Sin_rgb-1.jpg?width=940&amp;height=748&amp;name=SuomalPalvelua_Sin_rgb-1.jpg 940w, https://avaa.io/hs-fs/hubfs/SuomalPalvelua_Sin_rgb-1.jpg?width=1175&amp;height=935&amp;name=SuomalPalvelua_Sin_rgb-1.jpg 1175w, https://avaa.io/hs-fs/hubfs/SuomalPalvelua_Sin_rgb-1.jpg?width=1410&amp;height=1122&amp;name=SuomalPalvelua_Sin_rgb-1.jpg 1410w" sizes="(max-width: 470px) 100vw, 470px"></span></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-13 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1713978944930" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+
+
+
+
+<section class="scrolling-content-banner scrolling-content-banner--pause-on-hover ">
+  
+<ul class="scrolling-content-banner__list scrolling-content-banner__content scrolling-content-banner--no-list" aria-hidden="false">
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://hatki.fi/" target="_blank" rel="noopener">
+      
+      <span class="scrolling-content-banner__item-content"><p><img src="https://avaa.io/hs-fs/hubfs/cropped-logo_vaaka_valkoinen_sininen.png?width=216&amp;height=50&amp;name=cropped-logo_vaaka_valkoinen_sininen.png" width="216" height="50" loading="lazy" alt="cropped-logo_vaaka_valkoinen_sininen" style="height: auto; max-width: 100%; width: 216px;" srcset="https://avaa.io/hs-fs/hubfs/cropped-logo_vaaka_valkoinen_sininen.png?width=108&amp;height=25&amp;name=cropped-logo_vaaka_valkoinen_sininen.png 108w, https://avaa.io/hs-fs/hubfs/cropped-logo_vaaka_valkoinen_sininen.png?width=216&amp;height=50&amp;name=cropped-logo_vaaka_valkoinen_sininen.png 216w, https://avaa.io/hs-fs/hubfs/cropped-logo_vaaka_valkoinen_sininen.png?width=324&amp;height=75&amp;name=cropped-logo_vaaka_valkoinen_sininen.png 324w, https://avaa.io/hs-fs/hubfs/cropped-logo_vaaka_valkoinen_sininen.png?width=432&amp;height=100&amp;name=cropped-logo_vaaka_valkoinen_sininen.png 432w, https://avaa.io/hs-fs/hubfs/cropped-logo_vaaka_valkoinen_sininen.png?width=540&amp;height=125&amp;name=cropped-logo_vaaka_valkoinen_sininen.png 540w, https://avaa.io/hs-fs/hubfs/cropped-logo_vaaka_valkoinen_sininen.png?width=648&amp;height=150&amp;name=cropped-logo_vaaka_valkoinen_sininen.png 648w" sizes="(max-width: 216px) 100vw, 216px"></p>
+<p>&nbsp;</p></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://virtaisannointi.fi/" target="_blank" rel="noopener">
+      
+      <span class="scrolling-content-banner__item-content"><h2 style="text-align: center;"><img src="https://avaa.io/hs-fs/hubfs/virtalogo_kelt.png?width=207&amp;height=60&amp;name=virtalogo_kelt.png" width="207" height="60" loading="lazy" alt="virtalogo_kelt" style="height: auto; max-width: 100%; width: 207px;" srcset="https://avaa.io/hs-fs/hubfs/virtalogo_kelt.png?width=104&amp;height=30&amp;name=virtalogo_kelt.png 104w, https://avaa.io/hs-fs/hubfs/virtalogo_kelt.png?width=207&amp;height=60&amp;name=virtalogo_kelt.png 207w, https://avaa.io/hs-fs/hubfs/virtalogo_kelt.png?width=311&amp;height=90&amp;name=virtalogo_kelt.png 311w, https://avaa.io/hs-fs/hubfs/virtalogo_kelt.png?width=414&amp;height=120&amp;name=virtalogo_kelt.png 414w, https://avaa.io/hs-fs/hubfs/virtalogo_kelt.png?width=518&amp;height=150&amp;name=virtalogo_kelt.png 518w, https://avaa.io/hs-fs/hubfs/virtalogo_kelt.png?width=621&amp;height=180&amp;name=virtalogo_kelt.png 621w" sizes="(max-width: 207px) 100vw, 207px"></h2>
+<p>&nbsp;</p></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://www.vaasanasumisoikeus.fi/" target="_blank" rel="noopener">
+      
+      <span class="scrolling-content-banner__item-content"><h2 style="text-align: center;"><img src="https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-21%20at%2023.06.46.png?width=202&amp;height=48&amp;name=Screenshot%202024-05-21%20at%2023.06.46.png" width="202" height="48" loading="lazy" alt="Screenshot 2024-05-21 at 23.06.46" style="height: auto; max-width: 100%; width: 202px;" srcset="https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-21%20at%2023.06.46.png?width=101&amp;height=24&amp;name=Screenshot%202024-05-21%20at%2023.06.46.png 101w, https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-21%20at%2023.06.46.png?width=202&amp;height=48&amp;name=Screenshot%202024-05-21%20at%2023.06.46.png 202w, https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-21%20at%2023.06.46.png?width=303&amp;height=72&amp;name=Screenshot%202024-05-21%20at%2023.06.46.png 303w, https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-21%20at%2023.06.46.png?width=404&amp;height=96&amp;name=Screenshot%202024-05-21%20at%2023.06.46.png 404w, https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-21%20at%2023.06.46.png?width=505&amp;height=120&amp;name=Screenshot%202024-05-21%20at%2023.06.46.png 505w, https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-21%20at%2023.06.46.png?width=606&amp;height=144&amp;name=Screenshot%202024-05-21%20at%2023.06.46.png 606w" sizes="(max-width: 202px) 100vw, 202px"></h2>
+<p>&nbsp;</p></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://www.isyk.fi/" target="_blank" rel="noopener">
+      
+      <span class="scrolling-content-banner__item-content"><h2 style="text-align: center;"><img src="https://avaa.io/hs-fs/hubfs/isyk-vihrea-1.png?width=131&amp;height=46&amp;name=isyk-vihrea-1.png" width="131" height="46" loading="lazy" alt="isyk-vihrea-1" style="height: auto; max-width: 100%; width: 131px;" srcset="https://avaa.io/hs-fs/hubfs/isyk-vihrea-1.png?width=66&amp;height=23&amp;name=isyk-vihrea-1.png 66w, https://avaa.io/hs-fs/hubfs/isyk-vihrea-1.png?width=131&amp;height=46&amp;name=isyk-vihrea-1.png 131w, https://avaa.io/hs-fs/hubfs/isyk-vihrea-1.png?width=197&amp;height=69&amp;name=isyk-vihrea-1.png 197w, https://avaa.io/hs-fs/hubfs/isyk-vihrea-1.png?width=262&amp;height=92&amp;name=isyk-vihrea-1.png 262w, https://avaa.io/hs-fs/hubfs/isyk-vihrea-1.png?width=328&amp;height=115&amp;name=isyk-vihrea-1.png 328w, https://avaa.io/hs-fs/hubfs/isyk-vihrea-1.png?width=393&amp;height=138&amp;name=isyk-vihrea-1.png 393w" sizes="(max-width: 131px) 100vw, 131px"></h2>
+<p>&nbsp;</p></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://www.pkpoy.net/" target="_blank" rel="noopener">
+      
+      <span class="scrolling-content-banner__item-content"><p><img src="https://avaa.io/hubfs/pohjanmaan-kiinteistopalvelut.svg" loading="lazy" alt="pohjanmaan-kiinteistopalvelut" width="101" height="62" style="width: 101px; height: auto; max-width: 100%; margin-left: auto; margin-right: auto; display: block;"></p>
+<p>&nbsp;</p></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://www.mhtisannointi.fi/" target="_blank" rel="noopener">
+      
+      <span class="scrolling-content-banner__item-content"><p><img src="https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-16%20at%200.49.36.png?width=293&amp;height=50&amp;name=Screenshot%202024-05-16%20at%200.49.36.png" width="293" height="50" loading="lazy" alt="Screenshot 2024-05-16 at 0.49.36" style="height: auto; max-width: 100%; width: 293px;" srcset="https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-16%20at%200.49.36.png?width=147&amp;height=25&amp;name=Screenshot%202024-05-16%20at%200.49.36.png 147w, https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-16%20at%200.49.36.png?width=293&amp;height=50&amp;name=Screenshot%202024-05-16%20at%200.49.36.png 293w, https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-16%20at%200.49.36.png?width=440&amp;height=75&amp;name=Screenshot%202024-05-16%20at%200.49.36.png 440w, https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-16%20at%200.49.36.png?width=586&amp;height=100&amp;name=Screenshot%202024-05-16%20at%200.49.36.png 586w, https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-16%20at%200.49.36.png?width=733&amp;height=125&amp;name=Screenshot%202024-05-16%20at%200.49.36.png 733w, https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-16%20at%200.49.36.png?width=879&amp;height=150&amp;name=Screenshot%202024-05-16%20at%200.49.36.png 879w" sizes="(max-width: 293px) 100vw, 293px"></p>
+<p>&nbsp;</p></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://www.talotili.fi/" target="_blank" rel="noopener">
+      
+      <span class="scrolling-content-banner__item-content"><p><img src="https://avaa.io/hubfs/LTT.svg" loading="lazy" alt="LTT" width="167" height="54" style="width: 167px; height: auto; max-width: 100%; margin-left: auto; margin-right: auto; display: block;"></p>
+<p>&nbsp;</p></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://www.skipa.fi/" target="_blank" rel="noopener">
+      
+      <span class="scrolling-content-banner__item-content"><p><img src="https://avaa.io/hs-fs/hubfs/image001%20(1).png?width=182&amp;height=56&amp;name=image001%20(1).png" width="182" height="56" loading="lazy" alt="image001 (1)" style="height: auto; max-width: 100%; width: 182px; margin-left: auto; margin-right: auto; display: block;" srcset="https://avaa.io/hs-fs/hubfs/image001%20(1).png?width=91&amp;height=28&amp;name=image001%20(1).png 91w, https://avaa.io/hs-fs/hubfs/image001%20(1).png?width=182&amp;height=56&amp;name=image001%20(1).png 182w, https://avaa.io/hs-fs/hubfs/image001%20(1).png?width=273&amp;height=84&amp;name=image001%20(1).png 273w, https://avaa.io/hs-fs/hubfs/image001%20(1).png?width=364&amp;height=112&amp;name=image001%20(1).png 364w, https://avaa.io/hs-fs/hubfs/image001%20(1).png?width=455&amp;height=140&amp;name=image001%20(1).png 455w, https://avaa.io/hs-fs/hubfs/image001%20(1).png?width=546&amp;height=168&amp;name=image001%20(1).png 546w" sizes="(max-width: 182px) 100vw, 182px"></p>
+<p>&nbsp;</p></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://www.isannointihonka.fi">
+      
+      <span class="scrolling-content-banner__item-content"><h1 style="text-align: center;"><img src="https://avaa.io/hs-fs/hubfs/Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png?width=180&amp;height=119&amp;name=Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png" width="180" height="119" loading="lazy" alt="Isännöinti Honka Oy tiivis logo_HR" style="height: auto; max-width: 100%; width: 180px; margin-left: auto; margin-right: auto; display: block;" srcset="https://avaa.io/hs-fs/hubfs/Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png?width=90&amp;height=60&amp;name=Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png 90w, https://avaa.io/hs-fs/hubfs/Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png?width=180&amp;height=119&amp;name=Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png 180w, https://avaa.io/hs-fs/hubfs/Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png?width=270&amp;height=179&amp;name=Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png 270w, https://avaa.io/hs-fs/hubfs/Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png?width=360&amp;height=238&amp;name=Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png 360w, https://avaa.io/hs-fs/hubfs/Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png?width=450&amp;height=298&amp;name=Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png 450w, https://avaa.io/hs-fs/hubfs/Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png?width=540&amp;height=357&amp;name=Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png 540w" sizes="(max-width: 180px) 100vw, 180px"></h1>
+<p>&nbsp;</p></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://tilikasi.fi/">
+      
+      <span class="scrolling-content-banner__item-content"><p><img src="https://avaa.io/hs-fs/hubfs/tilikasi-oy-10.png?width=250&amp;height=125&amp;name=tilikasi-oy-10.png" width="250" height="125" loading="lazy" alt="tilikasi-oy-10" style="height: auto; max-width: 100%; width: 250px;" srcset="https://avaa.io/hs-fs/hubfs/tilikasi-oy-10.png?width=125&amp;height=63&amp;name=tilikasi-oy-10.png 125w, https://avaa.io/hs-fs/hubfs/tilikasi-oy-10.png?width=250&amp;height=125&amp;name=tilikasi-oy-10.png 250w, https://avaa.io/hs-fs/hubfs/tilikasi-oy-10.png?width=375&amp;height=188&amp;name=tilikasi-oy-10.png 375w, https://avaa.io/hs-fs/hubfs/tilikasi-oy-10.png?width=500&amp;height=250&amp;name=tilikasi-oy-10.png 500w, https://avaa.io/hs-fs/hubfs/tilikasi-oy-10.png?width=625&amp;height=313&amp;name=tilikasi-oy-10.png 625w, https://avaa.io/hs-fs/hubfs/tilikasi-oy-10.png?width=750&amp;height=375&amp;name=tilikasi-oy-10.png 750w" sizes="(max-width: 250px) 100vw, 250px"></p>
+<p>&nbsp;</p></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://korpilahdentili.fi/">
+      
+      <span class="scrolling-content-banner__item-content"><h2 style="text-align: center;"><img src="https://avaa.io/hs-fs/hubfs/logo%20(22).jpg?width=250&amp;height=101&amp;name=logo%20(22).jpg" width="250" height="101" loading="lazy" alt="logo (22)" style="height: auto; max-width: 100%; width: 250px;" srcset="https://avaa.io/hs-fs/hubfs/logo%20(22).jpg?width=125&amp;height=51&amp;name=logo%20(22).jpg 125w, https://avaa.io/hs-fs/hubfs/logo%20(22).jpg?width=250&amp;height=101&amp;name=logo%20(22).jpg 250w, https://avaa.io/hs-fs/hubfs/logo%20(22).jpg?width=375&amp;height=152&amp;name=logo%20(22).jpg 375w, https://avaa.io/hs-fs/hubfs/logo%20(22).jpg?width=500&amp;height=202&amp;name=logo%20(22).jpg 500w, https://avaa.io/hs-fs/hubfs/logo%20(22).jpg?width=625&amp;height=253&amp;name=logo%20(22).jpg 625w, https://avaa.io/hs-fs/hubfs/logo%20(22).jpg?width=750&amp;height=303&amp;name=logo%20(22).jpg 750w" sizes="(max-width: 250px) 100vw, 250px"></h2></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+   
+</ul>
+
+  
+<ul class="scrolling-content-banner__list scrolling-content-banner__content scrolling-content-banner--no-list" aria-hidden="true">
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://hatki.fi/" target="_blank" rel="noopener">
+      
+      <span class="scrolling-content-banner__item-content"><p><img src="https://avaa.io/hs-fs/hubfs/cropped-logo_vaaka_valkoinen_sininen.png?width=216&amp;height=50&amp;name=cropped-logo_vaaka_valkoinen_sininen.png" width="216" height="50" loading="lazy" alt="cropped-logo_vaaka_valkoinen_sininen" style="height: auto; max-width: 100%; width: 216px;" srcset="https://avaa.io/hs-fs/hubfs/cropped-logo_vaaka_valkoinen_sininen.png?width=108&amp;height=25&amp;name=cropped-logo_vaaka_valkoinen_sininen.png 108w, https://avaa.io/hs-fs/hubfs/cropped-logo_vaaka_valkoinen_sininen.png?width=216&amp;height=50&amp;name=cropped-logo_vaaka_valkoinen_sininen.png 216w, https://avaa.io/hs-fs/hubfs/cropped-logo_vaaka_valkoinen_sininen.png?width=324&amp;height=75&amp;name=cropped-logo_vaaka_valkoinen_sininen.png 324w, https://avaa.io/hs-fs/hubfs/cropped-logo_vaaka_valkoinen_sininen.png?width=432&amp;height=100&amp;name=cropped-logo_vaaka_valkoinen_sininen.png 432w, https://avaa.io/hs-fs/hubfs/cropped-logo_vaaka_valkoinen_sininen.png?width=540&amp;height=125&amp;name=cropped-logo_vaaka_valkoinen_sininen.png 540w, https://avaa.io/hs-fs/hubfs/cropped-logo_vaaka_valkoinen_sininen.png?width=648&amp;height=150&amp;name=cropped-logo_vaaka_valkoinen_sininen.png 648w" sizes="(max-width: 216px) 100vw, 216px"></p>
+<p>&nbsp;</p></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://virtaisannointi.fi/" target="_blank" rel="noopener">
+      
+      <span class="scrolling-content-banner__item-content"><h2 style="text-align: center;"><img src="https://avaa.io/hs-fs/hubfs/virtalogo_kelt.png?width=207&amp;height=60&amp;name=virtalogo_kelt.png" width="207" height="60" loading="lazy" alt="virtalogo_kelt" style="height: auto; max-width: 100%; width: 207px;" srcset="https://avaa.io/hs-fs/hubfs/virtalogo_kelt.png?width=104&amp;height=30&amp;name=virtalogo_kelt.png 104w, https://avaa.io/hs-fs/hubfs/virtalogo_kelt.png?width=207&amp;height=60&amp;name=virtalogo_kelt.png 207w, https://avaa.io/hs-fs/hubfs/virtalogo_kelt.png?width=311&amp;height=90&amp;name=virtalogo_kelt.png 311w, https://avaa.io/hs-fs/hubfs/virtalogo_kelt.png?width=414&amp;height=120&amp;name=virtalogo_kelt.png 414w, https://avaa.io/hs-fs/hubfs/virtalogo_kelt.png?width=518&amp;height=150&amp;name=virtalogo_kelt.png 518w, https://avaa.io/hs-fs/hubfs/virtalogo_kelt.png?width=621&amp;height=180&amp;name=virtalogo_kelt.png 621w" sizes="(max-width: 207px) 100vw, 207px"></h2>
+<p>&nbsp;</p></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://www.vaasanasumisoikeus.fi/" target="_blank" rel="noopener">
+      
+      <span class="scrolling-content-banner__item-content"><h2 style="text-align: center;"><img src="https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-21%20at%2023.06.46.png?width=202&amp;height=48&amp;name=Screenshot%202024-05-21%20at%2023.06.46.png" width="202" height="48" loading="lazy" alt="Screenshot 2024-05-21 at 23.06.46" style="height: auto; max-width: 100%; width: 202px;" srcset="https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-21%20at%2023.06.46.png?width=101&amp;height=24&amp;name=Screenshot%202024-05-21%20at%2023.06.46.png 101w, https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-21%20at%2023.06.46.png?width=202&amp;height=48&amp;name=Screenshot%202024-05-21%20at%2023.06.46.png 202w, https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-21%20at%2023.06.46.png?width=303&amp;height=72&amp;name=Screenshot%202024-05-21%20at%2023.06.46.png 303w, https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-21%20at%2023.06.46.png?width=404&amp;height=96&amp;name=Screenshot%202024-05-21%20at%2023.06.46.png 404w, https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-21%20at%2023.06.46.png?width=505&amp;height=120&amp;name=Screenshot%202024-05-21%20at%2023.06.46.png 505w, https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-21%20at%2023.06.46.png?width=606&amp;height=144&amp;name=Screenshot%202024-05-21%20at%2023.06.46.png 606w" sizes="(max-width: 202px) 100vw, 202px"></h2>
+<p>&nbsp;</p></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://www.isyk.fi/" target="_blank" rel="noopener">
+      
+      <span class="scrolling-content-banner__item-content"><h2 style="text-align: center;"><img src="https://avaa.io/hs-fs/hubfs/isyk-vihrea-1.png?width=131&amp;height=46&amp;name=isyk-vihrea-1.png" width="131" height="46" loading="lazy" alt="isyk-vihrea-1" style="height: auto; max-width: 100%; width: 131px;" srcset="https://avaa.io/hs-fs/hubfs/isyk-vihrea-1.png?width=66&amp;height=23&amp;name=isyk-vihrea-1.png 66w, https://avaa.io/hs-fs/hubfs/isyk-vihrea-1.png?width=131&amp;height=46&amp;name=isyk-vihrea-1.png 131w, https://avaa.io/hs-fs/hubfs/isyk-vihrea-1.png?width=197&amp;height=69&amp;name=isyk-vihrea-1.png 197w, https://avaa.io/hs-fs/hubfs/isyk-vihrea-1.png?width=262&amp;height=92&amp;name=isyk-vihrea-1.png 262w, https://avaa.io/hs-fs/hubfs/isyk-vihrea-1.png?width=328&amp;height=115&amp;name=isyk-vihrea-1.png 328w, https://avaa.io/hs-fs/hubfs/isyk-vihrea-1.png?width=393&amp;height=138&amp;name=isyk-vihrea-1.png 393w" sizes="(max-width: 131px) 100vw, 131px"></h2>
+<p>&nbsp;</p></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://www.pkpoy.net/" target="_blank" rel="noopener">
+      
+      <span class="scrolling-content-banner__item-content"><p><img src="https://avaa.io/hubfs/pohjanmaan-kiinteistopalvelut.svg" loading="lazy" alt="pohjanmaan-kiinteistopalvelut" width="101" height="62" style="width: 101px; height: auto; max-width: 100%; margin-left: auto; margin-right: auto; display: block;"></p>
+<p>&nbsp;</p></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://www.mhtisannointi.fi/" target="_blank" rel="noopener">
+      
+      <span class="scrolling-content-banner__item-content"><p><img src="https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-16%20at%200.49.36.png?width=293&amp;height=50&amp;name=Screenshot%202024-05-16%20at%200.49.36.png" width="293" height="50" loading="lazy" alt="Screenshot 2024-05-16 at 0.49.36" style="height: auto; max-width: 100%; width: 293px;" srcset="https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-16%20at%200.49.36.png?width=147&amp;height=25&amp;name=Screenshot%202024-05-16%20at%200.49.36.png 147w, https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-16%20at%200.49.36.png?width=293&amp;height=50&amp;name=Screenshot%202024-05-16%20at%200.49.36.png 293w, https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-16%20at%200.49.36.png?width=440&amp;height=75&amp;name=Screenshot%202024-05-16%20at%200.49.36.png 440w, https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-16%20at%200.49.36.png?width=586&amp;height=100&amp;name=Screenshot%202024-05-16%20at%200.49.36.png 586w, https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-16%20at%200.49.36.png?width=733&amp;height=125&amp;name=Screenshot%202024-05-16%20at%200.49.36.png 733w, https://avaa.io/hs-fs/hubfs/Screenshot%202024-05-16%20at%200.49.36.png?width=879&amp;height=150&amp;name=Screenshot%202024-05-16%20at%200.49.36.png 879w" sizes="(max-width: 293px) 100vw, 293px"></p>
+<p>&nbsp;</p></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://www.talotili.fi/" target="_blank" rel="noopener">
+      
+      <span class="scrolling-content-banner__item-content"><p><img src="https://avaa.io/hubfs/LTT.svg" loading="lazy" alt="LTT" width="167" height="54" style="width: 167px; height: auto; max-width: 100%; margin-left: auto; margin-right: auto; display: block;"></p>
+<p>&nbsp;</p></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://www.skipa.fi/" target="_blank" rel="noopener">
+      
+      <span class="scrolling-content-banner__item-content"><p><img src="https://avaa.io/hs-fs/hubfs/image001%20(1).png?width=182&amp;height=56&amp;name=image001%20(1).png" width="182" height="56" loading="lazy" alt="image001 (1)" style="height: auto; max-width: 100%; width: 182px; margin-left: auto; margin-right: auto; display: block;" srcset="https://avaa.io/hs-fs/hubfs/image001%20(1).png?width=91&amp;height=28&amp;name=image001%20(1).png 91w, https://avaa.io/hs-fs/hubfs/image001%20(1).png?width=182&amp;height=56&amp;name=image001%20(1).png 182w, https://avaa.io/hs-fs/hubfs/image001%20(1).png?width=273&amp;height=84&amp;name=image001%20(1).png 273w, https://avaa.io/hs-fs/hubfs/image001%20(1).png?width=364&amp;height=112&amp;name=image001%20(1).png 364w, https://avaa.io/hs-fs/hubfs/image001%20(1).png?width=455&amp;height=140&amp;name=image001%20(1).png 455w, https://avaa.io/hs-fs/hubfs/image001%20(1).png?width=546&amp;height=168&amp;name=image001%20(1).png 546w" sizes="(max-width: 182px) 100vw, 182px"></p>
+<p>&nbsp;</p></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://www.isannointihonka.fi">
+      
+      <span class="scrolling-content-banner__item-content"><h1 style="text-align: center;"><img src="https://avaa.io/hs-fs/hubfs/Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png?width=180&amp;height=119&amp;name=Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png" width="180" height="119" loading="lazy" alt="Isännöinti Honka Oy tiivis logo_HR" style="height: auto; max-width: 100%; width: 180px; margin-left: auto; margin-right: auto; display: block;" srcset="https://avaa.io/hs-fs/hubfs/Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png?width=90&amp;height=60&amp;name=Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png 90w, https://avaa.io/hs-fs/hubfs/Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png?width=180&amp;height=119&amp;name=Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png 180w, https://avaa.io/hs-fs/hubfs/Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png?width=270&amp;height=179&amp;name=Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png 270w, https://avaa.io/hs-fs/hubfs/Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png?width=360&amp;height=238&amp;name=Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png 360w, https://avaa.io/hs-fs/hubfs/Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png?width=450&amp;height=298&amp;name=Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png 450w, https://avaa.io/hs-fs/hubfs/Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png?width=540&amp;height=357&amp;name=Is%C3%A4nn%C3%B6inti%20Honka%20Oy%20tiivis%20logo_HR.png 540w" sizes="(max-width: 180px) 100vw, 180px"></h1>
+<p>&nbsp;</p></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://tilikasi.fi/">
+      
+      <span class="scrolling-content-banner__item-content"><p><img src="https://avaa.io/hs-fs/hubfs/tilikasi-oy-10.png?width=250&amp;height=125&amp;name=tilikasi-oy-10.png" width="250" height="125" loading="lazy" alt="tilikasi-oy-10" style="height: auto; max-width: 100%; width: 250px;" srcset="https://avaa.io/hs-fs/hubfs/tilikasi-oy-10.png?width=125&amp;height=63&amp;name=tilikasi-oy-10.png 125w, https://avaa.io/hs-fs/hubfs/tilikasi-oy-10.png?width=250&amp;height=125&amp;name=tilikasi-oy-10.png 250w, https://avaa.io/hs-fs/hubfs/tilikasi-oy-10.png?width=375&amp;height=188&amp;name=tilikasi-oy-10.png 375w, https://avaa.io/hs-fs/hubfs/tilikasi-oy-10.png?width=500&amp;height=250&amp;name=tilikasi-oy-10.png 500w, https://avaa.io/hs-fs/hubfs/tilikasi-oy-10.png?width=625&amp;height=313&amp;name=tilikasi-oy-10.png 625w, https://avaa.io/hs-fs/hubfs/tilikasi-oy-10.png?width=750&amp;height=375&amp;name=tilikasi-oy-10.png 750w" sizes="(max-width: 250px) 100vw, 250px"></p>
+<p>&nbsp;</p></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+  
+  
+  
+  
+  
+  <li class="scrolling-content-banner__item">
+    
+    <a class="scrolling-content-banner__item-link" href="https://korpilahdentili.fi/">
+      
+      <span class="scrolling-content-banner__item-content"><h2 style="text-align: center;"><img src="https://avaa.io/hs-fs/hubfs/logo%20(22).jpg?width=250&amp;height=101&amp;name=logo%20(22).jpg" width="250" height="101" loading="lazy" alt="logo (22)" style="height: auto; max-width: 100%; width: 250px;" srcset="https://avaa.io/hs-fs/hubfs/logo%20(22).jpg?width=125&amp;height=51&amp;name=logo%20(22).jpg 125w, https://avaa.io/hs-fs/hubfs/logo%20(22).jpg?width=250&amp;height=101&amp;name=logo%20(22).jpg 250w, https://avaa.io/hs-fs/hubfs/logo%20(22).jpg?width=375&amp;height=152&amp;name=logo%20(22).jpg 375w, https://avaa.io/hs-fs/hubfs/logo%20(22).jpg?width=500&amp;height=202&amp;name=logo%20(22).jpg 500w, https://avaa.io/hs-fs/hubfs/logo%20(22).jpg?width=625&amp;height=253&amp;name=logo%20(22).jpg 625w, https://avaa.io/hs-fs/hubfs/logo%20(22).jpg?width=750&amp;height=303&amp;name=logo%20(22).jpg 750w" sizes="(max-width: 250px) 100vw, 250px"></h2></span>
+      
+    </a>
+    
+  </li>
+  <li class="scrolling-content-banner__separator scrolling-content-banner__separator--none"></li>
+   
+</ul>
+
+</section></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-14 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_dnd_area-module-6" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="std-padding dnd_area-module-6  ">
+  
+  
+  <div class="page-content max flexed">
+    <div class="column-content full">
+      <div class="animation-only">
+        <div id="hs_cos_wrapper_dnd_area-module-6_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text" data-hs-cos-field="column_1"></div>
+      </div>
+      <div class="test-wrapper">
+        <a aria-label="Next Testimonial" class="carousel-pager pager-next" href="#"><span class="pager first"></span><span class="pager last"></span></a>
+        <a aria-label="Previous Testimonial" class="carousel-pager pager-prev" href="#"><span class="pager first"></span><span class="pager last"></span></a>
+        <div class="test-carousel">
+          
+            <div class="test-item">
+              <div class="test-content">
+                <div id="hs_cos_wrapper_dnd_area-module-6_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text" data-hs-cos-field="testimonial"><p><em>Isännöintijärjestelmät ovat pitkään olleet muutaman suuremman järjestelmätoimittajan vastuulla, enkä näe niiden kehittyneen merkittävästi vastaamaan nykypäivän isännöitsijän tarpeisiin. </em><em>Valitsimme Avaa.io:n, koska se täyttää parhaiten isännöintijärjestelmän vaatimukset ja auttaa meitä arkisten rutiinitöiden hallinnoinnissa.</em></p>
+<p>&nbsp;</p></div>
+              </div>
+              <div class="test-author">
+                <p><strong>Toimitusjohtaja Antti Ålander</strong> Pohjanmaan Kiinteistöpalvelut Oy</p>
+              </div>
+            </div>
+          
+            <div class="test-item">
+              <div class="test-content">
+                <div id="hs_cos_wrapper_dnd_area-module-6_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text" data-hs-cos-field="testimonial"><p>Avaa Solutions Oy:n asiakaspalvelu ansaitsee täyden 10 toiminnastaan. Kysymyksiin vastataan nopeasti ja asiantuntevasti. Tulevaisuus näyttää positiiviselta ja olemme erittäin tyytyväisiä sekä käyttöönottoon että Avaa.io tuotteeseen.</p></div>
+              </div>
+              <div class="test-author">
+                <p><strong> Toimitusjohtaja Juha Peltonen </strong> Joensuun isännöinti - Ykköset Oy</p>
+              </div>
+            </div>
+          
+            <div class="test-item">
+              <div class="test-content">
+                <div id="hs_cos_wrapper_dnd_area-module-6_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text" data-hs-cos-field="testimonial"><p data-olk-copy-source="MessageBody"><em>Käyttöönottoprosessi sujui aineistosiirtoineen erinomaisen helposti.&nbsp;&nbsp;</em><em>Kouluttajat osaavat asiansa erinomaisesti ja ohjelmat sekä Fennoa että Avaa.io tuntuu helppokäyttöisiltä.</em></p></div>
+              </div>
+              <div class="test-author">
+                <p><strong>Pääkirjanpitäjä Olivia Rouvali, Tilikasi Oy</strong></p>
+              </div>
+            </div>
+          
+            <div class="test-item">
+              <div class="test-content">
+                <div id="hs_cos_wrapper_dnd_area-module-6_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text" data-hs-cos-field="testimonial"><p><span data-olk-copy-source="MessageBody">Muutamia omia ideoita on tullut ja osa niistä on jo Avaa.io muutettu. Koen, että pienikin asiakas </span><span>tulee hyvin kuulluksi ja ohjelmaa kehitetään oikeasti käyttäjien toiveiden mukaan.</span></p></div>
+              </div>
+              <div class="test-author">
+                <p><strong>Isännöitsijä Heli Rantanen</strong> Korpilahden Isännöinti- ja Tilipalvelu Oy</p>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-15 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1740994584468" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="logo-carousel widget_1740994584468">
+  <div class="logo-carousel-inner">
+    
+    <div class="logo-carousel-header">
+      <div class="header-inner">
+        <div style="text-align: center;"><strong>&nbsp; Kumppanit ja yhteistyötahot</strong></div>
+<p>&nbsp;</p>
+      </div>   
+    </div>
+    
+
+    <div class="logo-carousel-inner-slide widget_1740994584468">
+           
+      <div class="logo-carousel-single">
+        <div class="logo-carousel-single-inner">
+          
+            
+            
+            <img src="https://avaa.io/hubfs/thinger-logo_2020%20(1).png" alt="thinger-logo_2020 (1)" loading="lazy">
+            
+            
+        </div>
+      </div>
+           
+      <div class="logo-carousel-single">
+        <div class="logo-carousel-single-inner">
+          
+            
+            
+            <img src="https://avaa.io/hubfs/Allteq-LOGO.png" alt="Allteq-LOGO" loading="lazy">
+            
+            
+        </div>
+      </div>
+           
+      <div class="logo-carousel-single">
+        <div class="logo-carousel-single-inner">
+          
+            
+            
+            <img src="https://avaa.io/hubfs/logo-flat.png" alt="logo-flat" loading="lazy">
+            
+            
+        </div>
+      </div>
+           
+      <div class="logo-carousel-single">
+        <div class="logo-carousel-single-inner">
+          
+            
+            
+            <img src="https://avaa.io/hubfs/download%20(1).png" alt="download (1)" loading="lazy">
+            
+            
+        </div>
+      </div>
+           
+      <div class="logo-carousel-single">
+        <div class="logo-carousel-single-inner">
+          
+            
+            
+            <img src="https://avaa.io/hubfs/N%C3%A4ytt%C3%B6kuva%202025-03-03%20kello%2011.50.45.png" alt="Näyttökuva 2025-03-03 kello 11.50.45" loading="lazy">
+            
+            
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-16 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1715176466554" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="std-padding widget_1715176466554 white reg-padding  ">
+  
+  
+  <div class="page-content widget_1715176466554 medium">
+    
+      <div class="top-title">
+        <div id="hs_cos_wrapper_widget_1715176466554_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text" data-hs-cos-field="top_content"><h2 style="text-align: center;">Tutustu tarkemmin:</h2></div>
+      </div>
+    
+    <div class="three-flex top-align">
+      <div class="column-content">
+        <div class="animation-only">
+          <div id="hs_cos_wrapper_widget_1715176466554_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text" data-hs-cos-field="column_1"><p style="text-align: center;"><a href="https://avaa.io/isännöintijärjestelmä" rel="noopener"><img src="https://avaa.io/hs-fs/hubfs/Logo_white_.png?width=226&amp;height=68&amp;name=Logo_white_.png" width="226" height="68" loading="lazy" alt="Logo_white_" style="height: auto; max-width: 100%; width: 226px; margin-left: auto; margin-right: auto; display: block;" srcset="https://avaa.io/hs-fs/hubfs/Logo_white_.png?width=113&amp;height=34&amp;name=Logo_white_.png 113w, https://avaa.io/hs-fs/hubfs/Logo_white_.png?width=226&amp;height=68&amp;name=Logo_white_.png 226w, https://avaa.io/hs-fs/hubfs/Logo_white_.png?width=339&amp;height=102&amp;name=Logo_white_.png 339w, https://avaa.io/hs-fs/hubfs/Logo_white_.png?width=452&amp;height=136&amp;name=Logo_white_.png 452w, https://avaa.io/hs-fs/hubfs/Logo_white_.png?width=565&amp;height=170&amp;name=Logo_white_.png 565w, https://avaa.io/hs-fs/hubfs/Logo_white_.png?width=678&amp;height=204&amp;name=Logo_white_.png 678w" sizes="(max-width: 226px) 100vw, 226px"></a></p>
+<p style="text-align: center;"><span style="color: #ffffff;"><a href="/isännöintijärjestelmä" rel="noopener" style="color: #ffffff;">Isännöintijärjestelmä</a></span></p></div>
+        </div>
+      </div>
+      <div class="column-content">
+        <div class="animation-only">
+          <div id="hs_cos_wrapper_widget_1715176466554_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text" data-hs-cos-field="column_2"><p style="text-align: center; font-size: 6px;">&nbsp;</p>
+<p style="text-align: center;"><a href="https://avaa.io/tarmopro" rel="noopener"><span><img src="https://avaa.io/hs-fs/hubfs/Tarmo_logo.png?width=249&amp;height=37&amp;name=Tarmo_logo.png" width="249" height="37" loading="lazy" alt="Tarmo_logo" style="height: auto; max-width: 100%; width: 249px;" srcset="https://avaa.io/hs-fs/hubfs/Tarmo_logo.png?width=125&amp;height=19&amp;name=Tarmo_logo.png 125w, https://avaa.io/hs-fs/hubfs/Tarmo_logo.png?width=249&amp;height=37&amp;name=Tarmo_logo.png 249w, https://avaa.io/hs-fs/hubfs/Tarmo_logo.png?width=374&amp;height=56&amp;name=Tarmo_logo.png 374w, https://avaa.io/hs-fs/hubfs/Tarmo_logo.png?width=498&amp;height=74&amp;name=Tarmo_logo.png 498w, https://avaa.io/hs-fs/hubfs/Tarmo_logo.png?width=623&amp;height=93&amp;name=Tarmo_logo.png 623w, https://avaa.io/hs-fs/hubfs/Tarmo_logo.png?width=747&amp;height=111&amp;name=Tarmo_logo.png 747w" sizes="(max-width: 249px) 100vw, 249px"></span></a></p>
+<p><span style="color: #ffffff;"><a href="/tarmopro" rel="noopener" style="color: #ffffff;">Huoltoyhtiön toiminnanohjaus</a></span></p></div>
+        </div>
+      </div>
+      <div class="column-content">
+        <div class="animation-only">
+          <div id="hs_cos_wrapper_widget_1715176466554_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text" data-hs-cos-field="column_3"><p style="text-align: center; font-size: 4px;">&nbsp;</p>
+<h2 style="text-align: center; font-size: 36px;"><span style="color: #ffffff; font-family: Montserrat, Helvetica, sans-serif;"><a href="/palvelut-3" rel="noopener" style="color: #ffffff;">AVAA SOLUTIONS OY</a></span><span style="color: #ffffff;"><a href="/palvelut-3" rel="noopener" style="color: #ffffff;"></a></span></h2>
+<p style="text-align: center;"><a href="/yritys" rel="noopener"><span style="color: #ffffff;">Yritys</span></a></p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-17 dnd-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-18 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget widget_1715248618757-flexbox-positioning dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1715248618757" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+    
+
+
+
+
+
+
+  
+
+
+
+<span id="hs_cos_wrapper_widget_1715248618757_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="linked_image"><img src="https://avaa.io/hubfs/PLATFORM_IMAGE_2.png" class="hs-image-widget " style="max-width: 100%; height: auto;" alt="PLATFORM_IMAGE_2" title="PLATFORM_IMAGE_2" loading="lazy"></span></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-19 dnd-section dnd_area-row-6-force-full-width-section dnd_area-row-6-background-layers dnd_area-row-6-background-color">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell cell_17152757549233-background-layers cell_17152757549233-background-color dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-20 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1715190344657" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="std-padding widget_1715190344657   ">
+  
+  
+  <div class="page-content widget_1715190344657  flexed left-side">
+    <div class="column-content ">
+      <div class="animation-only">
+        <div id="hs_cos_wrapper_widget_1715190344657_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text" data-hs-cos-field="column_1"><p style="text-align: center; font-size: 32px;"><span style="color: #2a4166;">Haluan kuulla lisää!</span></p></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-21 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget widget_1715759463747-flexbox-positioning dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1715759463747" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-cta" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_widget_1715759463747_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_cta" style="" data-hs-cos-general-type="widget" data-hs-cos-type="cta"><div class="hs-cta-embed hs-cta-simple-placeholder hs-cta-embed-100803007418" style="max-width:100%; max-height:100%; width:316px;height:96.875px" data-hubspot-wrapper-cta-id="100803007418">
+  <a href="/hs/cta/wi/redirect?encryptedPayload=AVxigLJgjcl2Itev5hunffdNtUbJHlP%2FfXKZez92Zy22lY289lFbHhWgy8n%2F1flfnT7oDSN2y%2FGqNoccPJkVvzHd9dqHg2ZQ2oBDrXrVzY0FkgOhgUDD8vDYppYQ1JWvx5F1fGGXtl00%2FHWa%2FgbRRnFMXMAOC5c2z1x4huv2UhtrYbmAA0X4HEHXIdPxL8U1%2F66zenC%2BJRU%3D&amp;webInteractiveContentId=100803007418&amp;portalId=144352573" target="_blank" rel="noopener" crossorigin="anonymous">
+    <img alt="Varaa aika ohjelmistoesittelyyn! " loading="lazy" src="https://hubspot-no-cache-eu1-prod.s3.amazonaws.com/cta/default/144352573/interactive-100803007418.png" style="height: 100%; width: 100%; object-fit: fill" onerror="this.style.display='none'">
+  </a>
+</div>
+</span></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-22 dnd-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-23 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1715716300752" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="std-padding widget_1715716300752  white reg-padding  ">
+  
+  
+  <div class="page-content widget_1715716300752 medium flexed left-side">
+    <div class="column-content ">
+      <div class="animation-only">
+        <div id="hs_cos_wrapper_widget_1715716300752_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text" data-hs-cos-field="column_1"><div style="text-align: center; font-size: 20px;"><strong>Ajankohtaista - blogit ja asiakastarinat</strong></div>
+<div style="text-align: center; font-size: 20px;">&nbsp;</div></div>
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <div class="blog-flex four">
+          
+            <div class="blog-item">
+              <div class="blog-image">
+                
+                <a href="https://avaa.io/blogi/määrittelyt-ennen-järjestelmiä-oikea-tapa-kehittää-liiketoimintaa" aria-label="Blog Detail for Määrittelyt ennen järjestelmiä – oikea tapa kehittää liiketoimintaa - Skipa Kiinteistöpalvelut Oy">
+                  <img src="https://144352573.fs1.hubspotusercontent-eu1.net/hub/144352573/hubfs/Ve0l5Xhg.jpeg?height=630&amp;name=Ve0l5Xhg.jpeg" alt="Skipa Kiinteistöpalvelut Oy">
+                </a>
+                
+              </div>
+              <div class="blog-list-content center-text">
+                <h2><a class="dark-link" href="https://avaa.io/blogi/määrittelyt-ennen-järjestelmiä-oikea-tapa-kehittää-liiketoimintaa">Määrittelyt ennen järjestelmiä – oikea tapa kehittää liiketoimintaa - Skipa Kiinteistöpalvelut Oy</a></h2>
+                <p>
+                  huhtikuuta 2, 2025
+                  
+                    <span class="blog-bullet">•</span><a class="author-link" href="https://avaa.io/blogi/author/raisa-hämäläinen-ja-sami-lappalainen">Raisa Hämäläinen ja Sami Lappalainen</a>
+                  
+                </p>
+              </div>
+              
+              
+            </div>
+          
+            <div class="blog-item">
+              <div class="blog-image">
+                
+                <a href="https://avaa.io/blogi/fennoan-ensiaskeleet-kiinteistöalan-taloushallinnossa" aria-label="Blog Detail for Fennoan ensiaskeleet kiinteistöalan taloushallinnossa">
+                  <img src="https://144352573.fs1.hubspotusercontent-eu1.net/hub/144352573/hubfs/N%C3%A4ytt%C3%B6kuva%202025-03-11%20kello%208.12.01.png?height=630&amp;name=N%C3%A4ytt%C3%B6kuva%202025-03-11%20kello%208.12.01.png" alt="">
+                </a>
+                
+              </div>
+              <div class="blog-list-content center-text">
+                <h2><a class="dark-link" href="https://avaa.io/blogi/fennoan-ensiaskeleet-kiinteistöalan-taloushallinnossa">Fennoan ensiaskeleet kiinteistöalan taloushallinnossa</a></h2>
+                <p>
+                  maaliskuuta 11, 2025
+                  
+                    <span class="blog-bullet">•</span><a class="author-link" href="https://avaa.io/blogi/author/santeri-jaakkola">Santeri Jaakkola</a>
+                  
+                </p>
+              </div>
+              
+              
+            </div>
+          
+            <div class="blog-item">
+              <div class="blog-image">
+                
+                <a href="https://avaa.io/blogi/isännöintijärjestelmä-tukee-tulevia-kumu-tietojen-halllinnointia-ja-htj2-vaiheen-siirtoja" aria-label="Blog Detail for Isännöintijärjestelmä tukee KuMu-tietojen halllinnointia ja tulevia HTJ2-vaiheen siirtoja">
+                  <img src="https://144352573.fs1.hubspotusercontent-eu1.net/hub/144352573/hubfs/download%20%281%29.png?height=630&amp;name=download%20%281%29.png" alt="">
+                </a>
+                
+              </div>
+              <div class="blog-list-content center-text">
+                <h2><a class="dark-link" href="https://avaa.io/blogi/isännöintijärjestelmä-tukee-tulevia-kumu-tietojen-halllinnointia-ja-htj2-vaiheen-siirtoja">Isännöintijärjestelmä tukee KuMu-tietojen halllinnointia ja tulevia HTJ2-vaiheen siirtoja</a></h2>
+                <p>
+                  helmikuuta 14, 2025
+                  
+                    <span class="blog-bullet">•</span><a class="author-link" href="https://avaa.io/blogi/author/tomi-salo">Tomi Salo</a>
+                  
+                </p>
+              </div>
+              
+              
+            </div>
+          
+            <div class="blog-item">
+              <div class="blog-image">
+                
+                <a href="https://avaa.io/blogi/rajapinta-ja-avaa.io-järjestelmän-välillä-aktivoitu-allteq" aria-label="Blog Detail for Avaa.io ja Allteqin välinen rajapinta avattu – tehokkuutta kiinteistönhuoltoon">
+                  <img src="https://144352573.fs1.hubspotusercontent-eu1.net/hub/144352573/hubfs/Untitled%20design%20%2835%29.png?height=630&amp;name=Untitled%20design%20%2835%29.png" alt="">
+                </a>
+                
+              </div>
+              <div class="blog-list-content center-text">
+                <h2><a class="dark-link" href="https://avaa.io/blogi/rajapinta-ja-avaa.io-järjestelmän-välillä-aktivoitu-allteq">Avaa.io ja Allteqin välinen rajapinta avattu – tehokkuutta kiinteistönhuoltoon</a></h2>
+                <p>
+                  helmikuuta 7, 2025
+                  
+                    <span class="blog-bullet">•</span><a class="author-link" href="https://avaa.io/blogi/author/sami-lappalainen">Sami Lappalainen</a>
+                  
+                </p>
+              </div>
+              
+              
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-24 dnd_area-row-8-max-width-section-centering dnd-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-25 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1715801490495" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+<span id="hs_cos_wrapper_widget_1715801490495_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="header"><h3>Tilaa uutiskirje</h3></span></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-26 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1715716545144" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-blog_subscribe" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+<span id="hs_cos_wrapper_widget_1715716545144_blog_subscribe" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_blog_subscribe" style="" data-hs-cos-general-type="widget" data-hs-cos-type="blog_subscribe">
+<div id="hs_form_target_widget_1715716545144_blog_subscribe_4028"></div>
+
+
+
+</span></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-27 dnd-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-28 dnd-row">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_widget_1728595196727" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="std-padding widget_1728595196727 white reg-padding  ">
+  
+  
+  <div class="page-content widget_1728595196727 medium">
+    
+    <div class="two-flex default  ">
+      <div class="column-content">
+        <div class="animation-only">
+          <div id="hs_cos_wrapper_widget_1728595196727_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text" data-hs-cos-field="column_1"><p>Avaa.io ja TarmoPro-järjestelmäkehitystä on tuettu kehityshankkeessa:</p>
+<p>Älykäs Kiinteistön hoito ja hallinto - Digitaalinen Kehitys ja Vihreän siirtymän kiihdyttäminen</p></div>
+        </div>
+      </div>
+      <div class="column-content">
+        <div class="animation-only">
+          <div id="hs_cos_wrapper_widget_1728595196727_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text" data-hs-cos-field="column_2"><p><img src="https://avaa.io/hs-fs/hubfs/FI%20Euroopan%20unionin%20osarahoittama_POS.jpg?width=4247&amp;height=891&amp;name=FI%20Euroopan%20unionin%20osarahoittama_POS.jpg" width="4247" height="891" loading="lazy" alt="FI Euroopan unionin osarahoittama_POS" style="height: auto; max-width: 100%; width: 4247px;" srcset="https://avaa.io/hs-fs/hubfs/FI%20Euroopan%20unionin%20osarahoittama_POS.jpg?width=2124&amp;height=446&amp;name=FI%20Euroopan%20unionin%20osarahoittama_POS.jpg 2124w, https://avaa.io/hs-fs/hubfs/FI%20Euroopan%20unionin%20osarahoittama_POS.jpg?width=4247&amp;height=891&amp;name=FI%20Euroopan%20unionin%20osarahoittama_POS.jpg 4247w, https://avaa.io/hs-fs/hubfs/FI%20Euroopan%20unionin%20osarahoittama_POS.jpg?width=6371&amp;height=1337&amp;name=FI%20Euroopan%20unionin%20osarahoittama_POS.jpg 6371w, https://avaa.io/hs-fs/hubfs/FI%20Euroopan%20unionin%20osarahoittama_POS.jpg?width=8494&amp;height=1782&amp;name=FI%20Euroopan%20unionin%20osarahoittama_POS.jpg 8494w, https://avaa.io/hs-fs/hubfs/FI%20Euroopan%20unionin%20osarahoittama_POS.jpg?width=10618&amp;height=2228&amp;name=FI%20Euroopan%20unionin%20osarahoittama_POS.jpg 10618w, https://avaa.io/hs-fs/hubfs/FI%20Euroopan%20unionin%20osarahoittama_POS.jpg?width=12741&amp;height=2673&amp;name=FI%20Euroopan%20unionin%20osarahoittama_POS.jpg 12741w" sizes="(max-width: 4247px) 100vw, 4247px"></p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-29 dnd-section">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell dnd-column cell_17285951140483-hidden" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div>
+</div>
+</div>
+  </main>
+
+
+      
+        <div data-global-resource-path="@marketplace/Mojo_Media_Labs/FreeFlex/templates/partials/freeflex-footer.html"><footer class="footer-wrap" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+  
+  <div class="container-fluid">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+</div><!--end widget-span -->
+</div>
+</div>
+</div>
+  
+  
+  <div id="hs_cos_wrapper_freeflex-footer" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="footer">
+  <div class="footer-top simple">
+    <div class="page-content max">
+      
+      <div class="footer-soc social">
+        <ul>
+          
+          
+          
+            <li><a class="reverse" href="https://www.linkedin.com/company/avaa-solutions-oy/" aria-label="Link to LinkedIn" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+          
+          
+          
+            <li><a class="reverse" href="https://www.youtube.com/@AvaaSolutionsOy" aria-label="Link to Youtube" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+          
+          
+          
+            <li><a class="reverse" href="mailto:support@avaa.io" aria-label="Email Us" target="_blank"><i class="fas fa-envelope"></i></a></li>
+          
+        </ul>
+      </div>
+      
+      
+      
+      <address>Rantalinna, Rantakatu 13 V, 65100 Vaasa</address>
+      
+      <div class="copyright">
+        <p>© 2025 
+          
+          
+          <a href="" class="dark-link">Avaa Solutions Oy</a>
+          Kaikki oikeudet pidätetään
+          
+        </p>
+        <div class="simple-footer-nav">
+          <span id="hs_cos_wrapper_freeflex-footer_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_freeflex-footer_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="javascript:void(0);" role="menuitem" target="_self">Privacy Policy</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="javascript:void(0);" role="menuitem" target="_self">Terms and Conditions</a></li>
+ </ul>
+</div></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .footer {
+    background-color: rgba(250, 250, 250, 1.0);
+  }
+  
+  .footer-soc.social-icons a span,
+  .footer-soc.social-icons a:visited span {
+    background: rgba(52, 122, 188, 1.0);
+    fill: rgba(255, 255, 255, 1.0);
+  }
+  
+  .footer-soc.social-icons a:hover span,
+  .footer-soc.social-icons a:focus span {
+    background: rgba(42, 65, 102, 1.0);
+    fill: rgba(255, 255, 255, 1.0);
+  }
+  
+  .footer-soc.social a,
+  .footer-soc.social a:visited {
+    background: rgba(52, 122, 188, 1.0);
+    color: rgba(255, 255, 255, 1.0);
+  }
+  
+  .footer-soc.social a:hover,
+  .footer-soc.social a:focus {
+    background: rgba(42, 65, 102, 1.0);
+    color: rgba(255, 255, 255, 1.0);
+  }
+  
+  .footer-nav li a,
+  .footer-nav li a:visited {
+    color: rgba(235, 66, 24, 1.0);
+  }
+  
+  .footer-nav li li a,
+  .footer-nav li li a:visited {
+    color: rgba(82, 82, 82, 1.0);
+  }
+  
+  .footer-nav li li a:hover,
+  .footer-nav li li a:focus {
+    color: rgba(235, 66, 24, 1.0);
+  }
+  
+  .footer-content p, 
+  .footer-content,
+  address {
+    color: rgba(82, 82, 82, 1.0);
+  }
+  
+  .copyright {
+    color: rgba(82, 82, 82, 1.0);
+  }
+  
+  .copyright a,
+  .copyright a:visited {
+    color: rgba(82, 82, 82, 1.0);
+  }
+
+  .copyright a:hover,
+  .copyright a:focus {
+    color: rgba(82, 82, 82, 1.0);
+  }
+</style></div>
+  
+  
+  <div class="container-fluid">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+</div><!--end widget-span -->
+</div>
+</div>
+</div>
+  
+</footer></div>
+      
+    </div>
+    
+      <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">-->
+      
+    
+    
+    
+    
+    
+<!-- HubSpot performance collection script -->
+<script defer src="/hs/hsstatic/content-cwv-embed/static-1.1293/embed.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://avaa.io/hs-fs/hubfs/hub_generated/template_assets/1/99420651723/1743169470083/template_waypoints-jquery-min-mf.min.js"></script>
+<script src="https://avaa.io/hs-fs/hubfs/hub_generated/template_assets/1/99420651720/1743169469166/template_aos-min-mf.min.js"></script>
+<script src="https://avaa.io/hs-fs/hubfs/hub_generated/template_assets/1/99420651721/1743169469691/template_freeflex-scripts.min.js"></script>
+<script>
+var hsVars = hsVars || {}; hsVars['language'] = 'fi';
+</script>
+
+<script src="/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js"></script>
+<script src="/hs/hsstatic/keyboard-accessible-menu-flyouts/static-1.17/bundles/project.js"></script>
+
+ <script>
+  function startCount(prefix, suffix) {
+    let count = 33000;
+
+    let intervalId = setInterval(function() {
+      if (count >= 33000 && count <= 35000){
+        let formattedCount = count.toString().replace(/\B(?=(\d{3})+(?!\d))/g,",");// this is for comma in number after 1000.
+        document.getElementById("counter-count-module_17139762628423-dw").innerHTML = prefix + formattedCount + suffix;
+        count++;
+      } else {
+        clearInterval(intervalId);
+      }
+    }, 10);
+  }
+  startCount('+ ', '');
+</script>
+    
+
+ <script>
+  function startCount(prefix, suffix) {
+    let count = 147000;
+
+    let intervalId = setInterval(function() {
+      if (count >= 147000 && count <= 150000){
+        let formattedCount = count.toString().replace(/\B(?=(\d{3})+(?!\d))/g,",");// this is for comma in number after 1000.
+        document.getElementById("counter-count-module_17139763428283-dw").innerHTML = prefix + formattedCount + suffix;
+        count++;
+      } else {
+        clearInterval(intervalId);
+      }
+    }, 10);
+  }
+  startCount(' + ', '');
+</script>
+    
+
+ <script>
+  function startCount(prefix, suffix) {
+    let count = 118000;
+
+    let intervalId = setInterval(function() {
+      if (count >= 118000 && count <= 120000){
+        let formattedCount = count.toString().replace(/\B(?=(\d{3})+(?!\d))/g,",");// this is for comma in number after 1000.
+        document.getElementById("counter-count-module_17139763480843-dw").innerHTML = prefix + formattedCount + suffix;
+        count++;
+      } else {
+        clearInterval(intervalId);
+      }
+    }, 10);
+  }
+  startCount(' + ', '');
+</script>
+    
+
+ <script>
+  function startCount(prefix, suffix) {
+    let count = 42000;
+
+    let intervalId = setInterval(function() {
+      if (count >= 42000 && count <= 45000){
+        let formattedCount = count.toString().replace(/\B(?=(\d{3})+(?!\d))/g,",");// this is for comma in number after 1000.
+        document.getElementById("counter-count-module_17139763508283-dw").innerHTML = prefix + formattedCount + suffix;
+        count++;
+      } else {
+        clearInterval(intervalId);
+      }
+    }, 10);
+  }
+  startCount(' + ', '');
+</script>
+    
+<script src="https://avaa.io/hs-fs/hubfs/hub_generated/template_assets/1/99418441171/1743169457750/template_slick-min-mf.min.js"></script>
+<script src="https://avaa.io/hs-fs/hubfs/hub_generated/module_assets/1/99418814452/1743134820369/module_Testimonial_Carousel_with_content_-_FreeFlex.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+  $('.logo-carousel.widget_1740994584468 .logo-carousel-inner-slide.widget_1740994584468').slick({
+    rows: 1,
+    infinite:  true ,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay:  true ,
+    autoplaySpeed: 6000,
+    dots: true ,
+    arrows: true ,
+    adaptiveHeight: false ,
+    prevArrow:'<span class="slick-prev"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><polygon points="7.293 4.707 14.586 12 7.293 19.293 8.707 20.707 17.414 12 8.707 3.293 7.293 4.707"/></svg></span>',
+    nextArrow:'<span class="slick-next"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><polygon points="7.293 4.707 14.586 12 7.293 19.293 8.707 20.707 17.414 12 8.707 3.293 7.293 4.707"/></svg></span>',
+    responsive: [
+    {
+    breakpoint: 1250,
+    settings: {
+    slidesToShow: 3,
+    }
+  },
+    {
+      breakpoint: 765,
+        settings: {
+          slidesToShow: 2,
+        }
+    },
+      {
+        breakpoint: 480,
+          settings: {
+            slidesToShow: 2, 
+          }
+      }
+  ]
+  });
+
+</script>
+
+<!-- Start of Web Interactives Embed Code -->
+<script defer src="https://js-eu1.hubspot.com/web-interactives-embed.js" type="text/javascript" id="hubspot-web-interactives-loader" data-loader="hs-previewer" data-hsjs-portal="144352573" data-hsjs-env="prod" data-hsjs-hublet="eu1"></script>
+<!-- End of Web Interactives Embed Code -->
+
+    <!--[if lte IE 8]>
+    <script charset="utf-8" src="https://js-eu1.hsforms.net/forms/v2-legacy.js"></script>
+    <![endif]-->
+
+<script data-hs-allowed="true" src="/_hcms/forms/v2.js"></script>
+
+  <script data-hs-allowed="true">
+      hbspt.forms.create({
+          portalId: '144352573',
+          formId: 'db099abc-856e-41c4-8a6b-70ba94348cb2',
+          formInstanceId: '4028',
+          pageId: '99416706540',
+          region: 'eu1',
+          
+          pageName: 'koti',
+          
+          contentType: 'site-page',
+          
+          formsBaseUrl: '/_hcms/forms/',
+          
+          
+          inlineMessage: "Kiitos tilauksesta!",
+          
+          css: '',
+          target: '#hs_form_target_widget_1715716545144_blog_subscribe_4028',
+          
+          formData: {
+            cssClass: 'hs-form stacked'
+          }
+      });
+  </script>
+
+
+<!-- Start of HubSpot Analytics Code -->
+<script type="text/javascript">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "standard-page"]);
+_hsq.push(["setCanonicalUrl", "https:\/\/avaa.io\/koti"]);
+_hsq.push(["setPageId", "99416706540"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 99416706540,
+    "legacyPageId": "99416706540",
+    "contentFolderId": null,
+    "contentGroupId": null,
+    "abTestId": null,
+    "languageVariantId": 99416706540,
+    "languageCode": "fi",
+    
+    
+}]);
+</script>
+
+<script type="text/javascript" id="hs-script-loader" async defer src="/hs/scriptloader/144352573.js"></script>
+<!-- End of HubSpot Analytics Code -->
+
+
+<script type="text/javascript">
+var hsVars = {
+    render_id: "daa72497-788d-467b-9c77-75b74b685083",
+    ticks: 1743770820053,
+    page_id: 99416706540,
+    
+    content_group_id: 0,
+    portal_id: 144352573,
+    app_hs_base_url: "https://app-eu1.hubspot.com",
+    cp_hs_base_url: "https://cp-eu1.hubspot.com",
+    language: "fi",
+    analytics_page_type: "standard-page",
+    scp_content_type: "",
+    
+    analytics_page_id: "99416706540",
+    category_id: 1,
+    folder_id: 0,
+    is_hubspot_user: false
+}
+</script>
+
+
+<script defer src="/hs/hsstatic/HubspotToolsMenu/static-1.432/js/index.js"></script>
+
+
+
+
+  
+</body></html>
