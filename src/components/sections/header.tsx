@@ -45,18 +45,12 @@ export default function Header() {
         </Link>
 
         <div className="hidden lg:block">
-          <div className="flex items-center ">
-            <nav className="mr-10">
+          <div className="flex items-center">
+            <nav className="mr-16">
               <Menu />
             </nav>
 
-            <div className="gap-2 flex">
-              <Link
-                href="/kirjaudu"
-                className={buttonVariants({ variant: "outline" })}
-              >
-                Kirjaudu
-              </Link>
+            <div className="gap-4 flex">
               <Link
                 href="/contact"
                 className={cn(

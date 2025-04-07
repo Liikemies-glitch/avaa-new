@@ -45,7 +45,7 @@ export const TestimonialCard = ({
 }: TestimonialCardProps) => (
   <div
     className={cn(
-      "mb-4 flex w-full cursor-pointer break-inside-avoid flex-col items-center justify-between gap-6 rounded-xl p-4",
+      "mb-4 flex w-full max-w-sm cursor-pointer break-inside-avoid flex-col items-center justify-between gap-6 rounded-xl p-6",
       // light styles
       " border border-neutral-200 bg-white",
       // dark styles
@@ -55,7 +55,7 @@ export const TestimonialCard = ({
     {...props} // Spread the rest of the props here
   >
     <div className="select-none text-sm font-normal text-neutral-700 dark:text-neutral-400">
-      {description}
+      <p className="whitespace-pre-line">{description}</p>
       <div className="flex flex-row py-1">
         <Star className="size-4 text-yellow-500 fill-yellow-500" />
         <Star className="size-4 text-yellow-500 fill-yellow-500" />
@@ -147,9 +147,11 @@ export default function Testimonials() {
         gradient={false}
         containerClassName="overflow-hidden"
       >
-        {testimonials.map((testimonial, idx) => (
-          <TestimonialCard key={idx} {...testimonial} />
-        ))}
+        <div className="flex gap-6 px-4">
+          {testimonials.map((testimonial, idx) => (
+            <TestimonialCard key={idx} {...testimonial} />
+          ))}
+        </div>
       </Marquee>
     </Section>
   );

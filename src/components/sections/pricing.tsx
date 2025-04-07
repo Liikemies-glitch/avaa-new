@@ -22,15 +22,15 @@ export default function PricingSection() {
   };
 
   return (
-    <Section title="Pricing" subtitle="Choose the plan that's right for you">
+    <Section title="Hinnat" subtitle="Valitse sinulle sopiva paketti">
       <div className="flex justify-center mb-10">
-        <span className="mr-2 font-semibold">Monthly</span>
+        <span className="mr-2 font-semibold">Kuukausittain</span>
         <label className="relative inline-flex items-center cursor-pointer">
           <Label>
             <Switch checked={!isMonthly} onCheckedChange={handleToggle} />
           </Label>
         </label>
-        <span className="ml-2 font-semibold">Yearly</span>
+        <span className="ml-2 font-semibold">Vuosittain</span>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 sm:2 gap-4">
         {siteConfig.pricing.map((plan, index) => (
@@ -78,7 +78,7 @@ export default function PricingSection() {
               <div className="absolute top-0 right-0 bg-primary py-0.5 px-2 rounded-bl-xl rounded-tr-xl flex items-center">
                 <FaStar className="text-white" />
                 <span className="text-white ml-1 font-sans font-semibold">
-                  Popular
+                  Suosittu
                 </span>
               </div>
             )}
@@ -92,13 +92,13 @@ export default function PricingSection() {
                 </span>
                 {plan.period !== "Next 3 months" && (
                   <span className="text-sm font-semibold leading-6 tracking-wide text-muted-foreground">
-                    / {plan.period}
+                    / {plan.period === "month" ? "kk" : plan.period}
                   </span>
                 )}
               </p>
 
               <p className="text-xs leading-5 text-muted-foreground">
-                {isMonthly ? "billed monthly" : "billed annually"}
+                {isMonthly ? "laskutetaan kuukausittain" : "laskutetaan vuosittain"}
               </p>
 
               <ul className="mt-5 gap-2 flex flex-col">
@@ -125,10 +125,16 @@ export default function PricingSection() {
                     : "bg-white text-black"
                 )}
               >
-                {plan.buttonText}
+                {plan.buttonText === "Subscribe" ? "Tilaa" : plan.buttonText}
               </Link>
               <p className="mt-6 text-xs leading-5 text-muted-foreground">
-                {plan.description}
+                {plan.description === "Perfect for individuals and small projects" 
+                  ? "Ihanteellinen yksityishenkilöille ja pienille projekteille" 
+                  : plan.description === "Ideal for growing businesses and teams"
+                  ? "Sopii kasvaville yrityksille ja tiimeille"
+                  : plan.description === "For large-scale operations and high-volume users"
+                  ? "Suurille toiminnallisuuksille ja suurille käyttäjämäärille"
+                  : plan.description}
               </p>
             </div>
           </motion.div>

@@ -12,9 +12,11 @@ export default function CtaSection() {
       subtitle="Ota yhteyttä ja kerromme lisää AVAA-ratkaisusta."
       className="bg-primary/10 rounded-xl py-16"
     >
-      <div className="flex flex-col w-full sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 pt-4">
-        <Link
-          href="/contact"
+      <div className="flex flex-col w-full sm:flex-row items-center justify-center pt-4">
+        <a
+          href="https://share.hsforms.com/1QxGXqXqXQxGXqXqXQxGXqX"
+          target="_blank"
+          rel="noopener noreferrer"
           className={cn(
             buttonVariants({ variant: "default" }),
             "w-full sm:w-auto text-background flex gap-2"
@@ -22,17 +24,7 @@ export default function CtaSection() {
         >
           <Icons.logo className="h-6 w-6" />
           Varaa demo
-        </Link>
-        <Link
-          href="/demo"
-          className={cn(
-            buttonVariants({ variant: "outline" }),
-            "w-full sm:w-auto flex gap-2"
-          )}
-        >
-          <Icons.radix className="h-6 w-6" />
-          Varaa demo
-        </Link>
+        </a>
       </div>
     </Section>
   );
