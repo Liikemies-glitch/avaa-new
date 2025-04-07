@@ -32,7 +32,7 @@ function HeroTitles() {
   return (
     <div className="flex w-full max-w-2xl flex-col space-y-4 overflow-hidden pt-8">
       <motion.h1
-        className="text-center text-4xl font-medium leading-tight text-foreground sm:text-5xl md:text-6xl"
+        className="text-center text-3xl font-medium leading-tight text-foreground sm:text-4xl md:text-5xl lg:text-6xl px-4"
         initial={{ filter: "blur(10px)", opacity: 0, y: 50 }}
         animate={{ filter: "blur(0px)", opacity: 1, y: 0 }}
         transition={{
@@ -58,7 +58,7 @@ function HeroTitles() {
         ))}
       </motion.h1>
       <motion.p
-        className="mx-auto max-w-xl text-center text-lg leading-7 text-muted-foreground sm:text-xl sm:leading-9 text-balance"
+        className="mx-auto max-w-xl text-center text-base leading-7 text-muted-foreground sm:text-lg md:text-xl sm:leading-9 text-balance px-4"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -108,7 +108,7 @@ function HeroCTA() {
 function HeroImage() {
   return (
     <motion.div
-      className="relative mx-auto flex w-full items-center justify-center"
+      className="relative mx-auto flex w-full items-center justify-center px-4 sm:px-6 lg:px-8"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 1.2, duration: 1, ease }}
@@ -116,7 +116,7 @@ function HeroImage() {
       <img
         src="/dashboard.png"
         alt="AVAA Dashboard"
-        className="border rounded-lg shadow-lg max-w-screen-lg mt-16"
+        className="border rounded-lg shadow-lg w-full max-w-screen-lg mt-16"
       />
     </motion.div>
   );
@@ -125,7 +125,7 @@ function HeroImage() {
 export default function Hero() {
   return (
     <section id="hero">
-      <div className="relative flex w-full flex-col items-center justify-start px-4 pt-32 sm:px-6 sm:pt-24 md:pt-32 lg:px-8">
+      <div className="relative flex w-full flex-col items-center justify-start px-4 pt-20 sm:px-6 sm:pt-24 md:pt-32 lg:px-8">
         <HeroPill />
         <HeroTitles />
         <HeroCTA />
