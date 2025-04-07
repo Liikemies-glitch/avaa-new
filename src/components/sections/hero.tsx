@@ -22,7 +22,7 @@ function HeroPill() {
         🏢 Kiinteistöhallinta
       </div>
       <p className="text-xs font-medium text-primary sm:text-sm">
-        Modernoi kiinteistöhallintasi
+        Modernisoi kiinteistöhallintasi
       </p>
     </motion.div>
   );
@@ -41,7 +41,7 @@ function HeroTitles() {
           staggerChildren: 0.2,
         }}
       >
-        {["Modernoi", "kiinteistöhallintasi", "AVAA", "ratkaisulla"].map((text, index) => (
+        {["Modernisoi", "kiinteistöhallintasi", "AVAA", "ratkaisulla"].map((text, index) => (
           <motion.span
             key={index}
             className="inline-block px-1 md:px-2 text-balance font-semibold"

@@ -35,7 +35,7 @@ const data = [
 
 export default function Component() {
   return (
-    <Section title="Palvelut" subtitle="Modernoi kiinteistöhallintasi AVAA-ratkaisulla">
+    <Section title="Palvelut" subtitle="Modernisoi kiinteistöhallintasi AVAA-ratkaisulla">
       <Features collapseDelay={5000} linePosition="bottom" data={data} />
     </Section>
   );
