@@ -45,7 +45,7 @@ export const TestimonialCard = ({
 }: TestimonialCardProps) => (
   <div
     className={cn(
-      "mb-4 flex w-full max-w-xs sm:max-w-sm cursor-pointer break-inside-avoid flex-col items-center justify-between gap-6 rounded-xl p-6",
+      "mb-4 flex w-full sm:max-w-sm cursor-pointer break-inside-avoid flex-col items-center justify-between gap-6 rounded-xl p-6",
       // light styles
       " border border-neutral-200 bg-white",
       // dark styles
