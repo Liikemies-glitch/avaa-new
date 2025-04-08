@@ -58,7 +58,7 @@ export default function Logos() {
         <div className="relative mt-6">
           <Marquee className="max-w-full [--duration:40s]">
             {companies.map((company, idx) => (
-              <div key={idx} className="mx-8">
+              <div key={idx} className="py-2">
                 <img
                   src={company.logo}
                   className="h-12 w-auto dark:brightness-0 dark:invert grayscale opacity-30 hover:opacity-100 transition-opacity"

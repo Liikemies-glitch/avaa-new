@@ -11,6 +11,7 @@ import { siteConfig } from "@/lib/config";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { IoMenuSharp } from "react-icons/io5";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 export default function MobileMenu() {
   return (
@@ -23,7 +24,7 @@ export default function MobileMenu() {
       <DrawerContent>
         <div className="max-h-[90vh] overflow-y-auto">
           <DrawerHeader className="px-6">
-            <div>
+            <div className="flex justify-between items-center">
               <Link
                 href="/"
                 title="AVAA"
@@ -32,6 +33,7 @@ export default function MobileMenu() {
                 <Icons.logo className="w-auto h-[40px]" />
                 <span className="font-bold text-xl">AVAA</span>
               </Link>
+              <ThemeToggle />
             </div>
             <nav>
               <ul className="mt-7 text-left space-y-4">

@@ -39,8 +39,6 @@ export default function RootLayout({
         >
           <Header />
           {children}
-          <ThemeToggle />
-          <TailwindIndicator />
         </ThemeProvider>
       </body>
     </html>

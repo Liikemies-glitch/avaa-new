@@ -334,6 +334,44 @@ export default function Features({
                 </div>
               ))}
             </ul>
+
+            {/* Mobile view Carousel */}
+            <ul
+              ref={carouselRef}
+              className="flex w-full gap-4 overflow-x-auto py-4 scrollbar-hide md:hidden"
+              style={{ scrollSnapType: "x mandatory" }}
+            >
+              {data.map((item, index) => (
+                <motion.li
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.5 + index * 0.1 }}
+                  key={item.id}
+                  className="card w-[80vw] max-w-[300px] flex-shrink-0 list-none md:w-1/4"
+                  style={{ scrollSnapAlign: "center" }}
+                  onClick={() => setCurrentIndex(index)}
+                >
+                  <div
+                    className={cn(
+                      "flex flex-col justify-center rounded-md border border-border bg-card p-6 text-card-foreground shadow-sm",
+                      currentIndex === index
+                        ? "ring-2 ring-primary ring-offset-2 ring-offset-background"
+                        : ""
+                    )}
+                  >
+                    <div className="item-box size-16 bg-primary/10 rounded-full sm:mx-6 mx-2 shrink-0 flex items-center justify-center">
+                      {item.icon || null}
+                    </div>
+                    <h2 className="mb-2 mt-6 text-balance text-xl font-semibold tracking-tight">
+                      {item.title}
+                    </h2>
+                    <p className="text-sm text-muted-foreground">
+                      {item.content}
+                    </p>
+                  </div>
+                </motion.li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>

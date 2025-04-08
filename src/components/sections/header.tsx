@@ -8,6 +8,7 @@ import { siteConfig } from "@/lib/config";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 export default function Header() {
   const [addBorder, setAddBorder] = useState(false);
@@ -62,6 +63,7 @@ export default function Header() {
                 <Icons.logo className="h-6 w-6" />
                 Varaa demo
               </Link>
+              <ThemeToggle />
             </div>
           </div>
         </div>
