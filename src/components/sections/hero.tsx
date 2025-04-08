@@ -32,7 +32,7 @@ function HeroTitles() {
   return (
     <div className="flex w-full max-w-2xl flex-col space-y-4 overflow-hidden pt-8">
       <motion.h1
-        className="text-center text-3xl font-medium leading-tight text-foreground sm:text-4xl md:text-5xl lg:text-6xl px-4"
+        className="text-center text-3xl font-medium leading-tight text-foreground sm:text-4xl md:text-5xl lg:text-6xl px-2 sm:px-4"
         initial={{ filter: "blur(10px)", opacity: 0, y: 50 }}
         animate={{ filter: "blur(0px)", opacity: 1, y: 0 }}
         transition={{
@@ -58,7 +58,7 @@ function HeroTitles() {
         ))}
       </motion.h1>
       <motion.p
-        className="mx-auto max-w-xl text-center text-base leading-7 text-muted-foreground sm:text-lg md:text-xl sm:leading-9 text-balance px-4"
+        className="mx-auto max-w-xl text-center text-base leading-7 text-muted-foreground sm:text-lg md:text-xl sm:leading-9 text-balance px-2 sm:px-4"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -77,20 +77,22 @@ function HeroCTA() {
   return (
     <>
       <motion.div
-        className="mx-auto mt-6 flex w-full max-w-2xl flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0"
+        className="mx-auto mt-6 flex w-full max-w-2xl flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 px-2 sm:px-0"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.8, duration: 0.8, ease }}
       >
         <Link
-          href="/contact"
+          href="https://share.hsforms.com/1QxGXqXqXQxGXqXqXQxGXqX"
+          target="_blank"
+          rel="noopener noreferrer"
           className={cn(
             buttonVariants({ variant: "default" }),
             "w-full sm:w-auto text-background flex gap-2"
           )}
         >
           <Icons.logo className="h-6 w-6" />
-          Ota yhteyttä
+          Varaa demo
         </Link>
       </motion.div>
       <motion.p
@@ -108,7 +110,7 @@ function HeroCTA() {
 function HeroImage() {
   return (
     <motion.div
-      className="relative mx-auto flex w-full items-center justify-center px-4 sm:px-6 lg:px-8"
+      className="relative mx-auto flex w-full items-center justify-center px-2 sm:px-6 lg:px-8"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 1.2, duration: 1, ease }}
@@ -125,7 +127,7 @@ function HeroImage() {
 export default function Hero() {
   return (
     <section id="hero">
-      <div className="relative flex w-full flex-col items-center justify-start px-4 pt-20 sm:px-6 sm:pt-24 md:pt-32 lg:px-8">
+      <div className="relative flex w-full flex-col items-center justify-start pt-20 sm:pt-24 md:pt-32 px-0 sm:px-4 lg:px-8">
         <HeroPill />
         <HeroTitles />
         <HeroCTA />
